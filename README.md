@@ -1,2 +1,1 @@
 
-NEDNE ABİ NEDNE
