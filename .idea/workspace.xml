@@ -34,7 +34,6 @@
       <change beforePath="$PROJECT_DIR$/Expense.h" beforeDir="false" afterPath="$PROJECT_DIR$/Expense.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExpenseManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManager.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExpenseManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,7 @@
       <workItem from="1772124098878" duration="2781000" />
       <workItem from="1772539004655" duration="144000" />
       <workItem from="1772539150561" duration="1812000" />
-      <workItem from="1772542019399" duration="4473000" />
+      <workItem from="1772542019399" duration="6272000" />
     </task>
     <task id="LOCAL-00001" summary="deneme :)">
       <option name="closed" value="true" />
@@ -200,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772546531808</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Base of the Expense Class">
+      <option name="closed" value="true" />
+      <created>1772547889618</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1772547889618</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
