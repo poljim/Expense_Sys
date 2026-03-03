@@ -7,7 +7,6 @@
 
 
 #include <string>
-#include <iostream>
 #include <chrono>
 
 
@@ -22,10 +21,14 @@ public:
     Expense(int id, std::string category, double amount, std::chrono::year_month_day date);
     //Expense(int id, const std::string& desc,
     //const std::string& cat, double amt);
-    int getId() const;
+    int getID() const;
     std::string getCategory() const;
     double getAmount() const;
     std::chrono::year_month_day getDate() const;
+
+    //setters for updating values
+    void setID() {}
+
 
 };
 

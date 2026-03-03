@@ -14,18 +14,23 @@
  */
 #include "Expense.h"
 
-    Expense::Expense(int id, const std::string category, double amount, std::chrono::year_month_day date) {
-        this->id = id;
-        this->category = category;
-        this->amount = amount;
-        this->date = date;
-        // can use this instead too after()
-        //: id(id), category(category), amount(amount), date(date)
-    }
+Expense::Expense(int id, const std::string category, double amount, std::chrono::year_month_day date) {
+    this->id = id;
+    this->category = category;
+    this->amount = amount;
+    this->date = date;
+    // can use this instead too after()
+    //: id(id), category(category), amount(amount), date(date)
+}
 
-int Expense::getId() const {return id;}
+//int Expense::getID() {return this->id = id;} // böyle niye olmuyo? (constu çıkardıktan sonra)
+
+// getter should not modify the value, that's why all of them are constant
+int Expense::getID() const {}
 std::string Expense::getCategory() const {return category;}
 double Expense::getAmount() const {return  amount;}
 std::chrono::year_month_day Expense::getDate() const {
-        return date;
-    }
+        return date;}
+
+//setters for updating values
+void Expense::setID(int newID){id = newID;}

@@ -4,10 +4,15 @@
 
 #ifndef EXPENSE_SYS_EXPENSE_MANAGER_H
 #define EXPENSE_SYS_EXPENSE_MANAGER_H
-
+#include "Expense.h"
 
 class ExpenseManager {
+
 };
+
+int addExpense() {
+
+}
 
 
 #endif //EXPENSE_SYS_EXPENSE_MANAGER_H

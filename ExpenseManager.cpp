@@ -3,7 +3,3 @@
 //
 
 #include "ExpenseManager.h"
-
-class ExpenseManager{
-
-};
