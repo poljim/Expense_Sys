@@ -13,13 +13,13 @@
 
 
     yazdırırken ID kullanmaya gerek var mı? id sadece giriş sırasına göre yazdırmaya yarıyor gibi
-(örneğin son 10 girdiyi yazdır demek istiyorsun) (car.getID>5)
+(örneğin son 10 girdiyi yazdır demek istiyorsun) (car.getID>3)
     sortta vs. de gerek yok gibi
  */
 #include "Expense.h"
 
-Expense::Expense(const std::string category, double amount, std::chrono::year_month_day date) {
-    //this->id = id;
+Expense::Expense(int id, const std::string category, double amount, std::chrono::year_month_day date) {
+    this->id = id;
     this->category = category;
     this->amount = amount;
     this->date = date;
@@ -30,11 +30,11 @@ Expense::Expense(const std::string category, double amount, std::chrono::year_mo
 //int Expense::getID() {return this->id = id;} // böyle niye olmuyo? (constu çıkardıktan sonra)
 
 // getter should not modify the value, that's why all of them are constant
-//int Expense::getID() const {}
+int Expense::getID() const {}
 std::string Expense::getCategory() const {return category;}
 double Expense::getAmount() const {return  amount;}
 std::chrono::year_month_day Expense::getDate() const {
         return date;}
 
 //setters for updating values
-//void Expense::setID(int newID){id = newID;}
+void Expense::setID(int newID){id = newID;}

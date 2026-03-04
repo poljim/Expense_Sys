@@ -12,16 +12,17 @@
 
 class Expense {
 private:
-    //int id;
+    int id;
     std::string category;
     double amount;
     std::chrono::year_month_day date;
 
 public:
-    Expense(std::string category, double amount, std::chrono::year_month_day date);
+    Expense(int id, std::string category, double amount, std::chrono::year_month_day date);
+
     //Expense(int id, const std::string& desc,
     //const std::string& cat, double amt);
-    //int getID() const;
+    int getID() const;
     std::string getCategory() const;
     double getAmount() const;
     std::chrono::year_month_day getDate() const;
