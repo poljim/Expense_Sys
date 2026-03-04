@@ -7,10 +7,11 @@ class ExpenseManager {
     std::list<Expense> expenses;
 
 
+public:
     void addExpense(int id, std::string category, double amount, std::chrono::year_month_day date) {
         //add instance of a class to a list?
-        expenses.emplace_black(id, category, amount, date);
-        //emplace_black ne??
+        expenses.emplace_back(id, category, amount, date);
+        //emplace_back "Constructs a new object directly at the end of a container."
 
         // we can use linked lists and each element becomes an object.
         // to go through the elements we need nested loops, one for object attributes, and one for list elements
