@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(Expense_Sys main.cpp
         Expense.cpp
         ExpenseManager.cpp
-        ExpenseManager.h)
+        ExpenseManager.h
+        deneme.cpp
+        deneme.h)

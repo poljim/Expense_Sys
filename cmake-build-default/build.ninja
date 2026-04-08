@@ -62,6 +62,12 @@ build CMakeFiles/Expense_Sys.dir/ExpenseManager.cpp.obj: CXX_COMPILER__Expense_S
   OBJECT_DIR = CMakeFiles\Expense_Sys.dir
   OBJECT_FILE_DIR = CMakeFiles\Expense_Sys.dir
 
+build CMakeFiles/Expense_Sys.dir/deneme.cpp.obj: CXX_COMPILER__Expense_Sys_unscanned_ C$:/Users/chö/CLionProjects/Expense_Sys/deneme.cpp || cmake_object_order_depends_target_Expense_Sys
+  DEP_FILE = CMakeFiles\Expense_Sys.dir\deneme.cpp.obj.d
+  FLAGS = -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Expense_Sys.dir
+  OBJECT_FILE_DIR = CMakeFiles\Expense_Sys.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Expense_Sys
@@ -70,7 +76,7 @@ build CMakeFiles/Expense_Sys.dir/ExpenseManager.cpp.obj: CXX_COMPILER__Expense_S
 #############################################
 # Link the executable Expense_Sys.exe
 
-build Expense_Sys.exe: CXX_EXECUTABLE_LINKER__Expense_Sys_ CMakeFiles/Expense_Sys.dir/main.cpp.obj CMakeFiles/Expense_Sys.dir/Expense.cpp.obj CMakeFiles/Expense_Sys.dir/ExpenseManager.cpp.obj
+build Expense_Sys.exe: CXX_EXECUTABLE_LINKER__Expense_Sys_ CMakeFiles/Expense_Sys.dir/main.cpp.obj CMakeFiles/Expense_Sys.dir/Expense.cpp.obj CMakeFiles/Expense_Sys.dir/ExpenseManager.cpp.obj CMakeFiles/Expense_Sys.dir/deneme.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Expense_Sys.dir
   POST_BUILD = cd .
