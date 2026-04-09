@@ -12,7 +12,7 @@ int main() {
 
     // Print the menu
     while (condition){
-        cout<<   "1. Add expense\n"
+        cout<<   "\n1. Add expense\n"
             <<   "2. Remove expense\n"
             <<   "3. Filter expenses \n"
             <<   "4. Calculate total expense \n"
@@ -46,12 +46,18 @@ int main() {
                     expenseManager.addExpense(id, category, amount, date);
                     //expense{i}.addExpense(2,"some category", 100, chrono::year{2010}/10/01); //std::chrono
                 }
+            }break;
 
+            
+                case 2: {
+                int idToRemove;
+                cout << "Enter the ID of the expense you want to remove: \n\n";
+                cin >> idToRemove;
 
-                //     break;
-                // case 2:
-                //     removeExpense();
-                //     break;
+                expenseManager.removeExpense(idToRemove);
+                
+            }break;
+
                 // case 3:
                 //     filterExpense();
                 // case 4:
@@ -61,15 +67,14 @@ int main() {
                 //     // how does the user want to sort the list? by save time, category or date?
                 //     sortExpense();
                 //     break;
-            }
+            
             case 0: {
                 condition = false;
                 break;
             }
             default:
-                cout << "Please enter a number between 0-5";
-
+                cout << "Please enter a number between 0-5\n";
+        
         }
     }
-    return 0;
-}
+};
