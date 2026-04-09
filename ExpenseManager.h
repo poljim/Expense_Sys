@@ -1,25 +1,27 @@
 #ifndef EXPENSE_SYS_EXPENSE_MANAGER_H
 #define EXPENSE_SYS_EXPENSE_MANAGER_H
 #include "Expense.h"
-#include <list>
+#include <vector>
+#include <string>
+using namespace std;
 
 class ExpenseManager {
+public:
+    // used vectors since time complexity for accessing elements by index is 1, whereas for lists it's n.
+    vector<Expense> ExpenseVector;
 
+    // tüm özellikleri aynı olan iki harcamaya izin olacak mı? (kabul etmemek daha kolay çünkü
+    // aynı harcamalar olduğunda remove expense'te hangisini silmek istediğini nasıl bileceğiz?
+    // id ile ulaşmak kolay olabilir ama kullanıcı id mi seçecek, id sıra mı olacak?)
+
+    void addExpense(int id, const string& category, double amount, const string& date) {
+        ExpenseVector.emplace_back(id, category, amount, date);
+        // emplace_back "Constructs a new object directly at the end of a container."
+
+        // though correct implementation of this would be with vectors
+
+    }
+    void removeExpense(int targetId);
 };
-
-void addExpense(int id, std::string category, double amount, std::chrono::year_month_day date) {
-    //add instance of a class to a list?
-
-    std::list<Expense> expense = new Expense(id, std::move(category), std::move(amount), date);
-
-
-    // we can use linked lists and each element becomes an object.
-    // to go through the elements we need nested loops, one for object attributes, and one for list elements
-    // not sure if it is good as other options since the complexity becomes n^2. but at least we are familiar with it
-
-    //though correct implementation of this would be with vectors
-
-}
-
 
 #endif //EXPENSE_SYS_EXPENSE_MANAGER_H
