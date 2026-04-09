@@ -1,0 +1,39 @@
+
+Yapılacaklar:
+> girişe menü eklenmesi. (geçen dönemdeki atm uygulaması gibi)
+> vektör mü list mi kullanılacak? (bazı fonksiyonlara stack/queue uymuyordu)
+
+> chrono diye bir kütüphane varmış, date diye datatype eklenbiliyormuş
+> hazır fonksiyonarı kullanmamamız mı lazım?
+> g'rd' sonundaki bosluklarin silinmesi?
+
+
+YAPILAN DEĞİŞİKLİKLER: (başka yerlerde düzeltme gerekebilir)
+> date string yapıldı. (çünkü kişi harcamalarını sonradan yapıyorsa o anlık tarihi almanın anlamı yok)
+>
+
+
+
+Sorular
+emplace_back() ne nerde kullanılıyor
+
+/* notes:
+*
+*
+* std = standard library
+* harcama tipleri
+* harcama miktarı
+* para türü ? (her seferinde bunu girmek gıcık olabilir)
+* harcama tarihi (kayıt tuttuğumuz için) (otomatik kaydedilir)
+* harcama IDsi (sort fln gerekiyor, getirirken de id ile
+  getirmek daha mantıklı gibi) ama ürün silince yenisinin yeni id ile kaydı nasıl
+  yapılabilir?
+
+kişi belli tarihlerde harcama yapacak onu tablo gibi kaydetmemiz gerek
+harcama türleri için enum mu? (??)
+
+
+yazdırırken ID kullanmaya gerek var mı? id sadece giriş sırasına göre yazdırmaya yarıyor gibi
+(örneğin son 10 girdiyi yazdır demek istiyorsun) (car.getID>3)
+sortta vs. de gerek yok gibi
+*/

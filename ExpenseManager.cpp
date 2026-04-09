@@ -1,17 +1,24 @@
 #include "ExpenseManager.h"
+#include "Expense.h" //include only header files, not cpp
 #include <iostream>
+#include <vector>
+#include <string>
 
-void ExpenseManager::addExpense(int id, std::string category, double amount, std::chrono::year_month_day date) {
-    // Yeni bir harcama oluşturup listeye ekliyoruz
-    Expense newExp(id, category, amount, date);
-    expenses.push_back(newExp);
-    std::cout << "Sistem: Harcama basariyla kaydedildi.\n";
-}
+using namespace std;
 
-void ExpenseManager::listAllExpenses() const {
-    std::cout << "--- Kayitli Harcamalar ---\n";
-    for (const auto& e : expenses) {
-        std::cout << "ID: " << e.getID() << " | Kategori: " << e.getCategory() 
-                  << " | Miktar: " << e.getAmount() << "\n";
+    vector<Expense> ExpenseVector;
+
+    void addExpense(int id, const string& category, double amount, const string& date) {
+        //does the user quit if it presses 0?
+		ExpenseVector.push_back(Expense(id, category, amount, date));
     }
-}
+
+
+
+
+
+
+
+
+
+
