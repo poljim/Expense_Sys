@@ -30,7 +30,9 @@ Expense::Expense(int id, const std::string category, double amount, std::chrono:
 //int Expense::getID() {return this->id = id;} // böyle niye olmuyo? (constu çıkardıktan sonra)
 
 // getter should not modify the value, that's why all of them are constant
-int Expense::getID() const {}
+int Expense::getID() const {
+    return id; // private olan id'yi döndürmeli
+}
 std::string Expense::getCategory() const {return category;}
 double Expense::getAmount() const {return  amount;}
 std::chrono::year_month_day Expense::getDate() const {

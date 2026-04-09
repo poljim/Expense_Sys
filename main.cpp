@@ -2,14 +2,17 @@
 #include "Expense.h"
 #include "ExpenseManager.h"
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the <b>lang</b> variable name to see how CLion can help you rename it.
-    auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
+    std::cout << "Expense System'e Hos Geldin!\n";
 
-    Expense someInstance(2,"some category",100.00,2010/10/01);
+    // Önce Manager nesnemizi yaratıyoruz
+    ExpenseManager manager;
+
+    // C++20'ye uygun tarih oluşturma (Yıl, Ay, Gün)
+    std::chrono::year_month_day myDate = std::chrono::year(2026) / 3 / 15;
+
+    // Manager üzerinden fonksiyonumuzu çağırarak harcamayı sisteme ekliyoruz
+    manager.addExpense(1, "Market", 450.50, myDate);
 
     return 0;
-    // TIP See CLion help at <a href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>. Also, you can try interactive lessons for CLion by selecting 'Help | Learn IDE Features' from the main menu.
 }
