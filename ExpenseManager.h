@@ -21,6 +21,7 @@ public:
         // though correct implementation of this would be with vectors
 
     }
+    void removeExpense(int targetId);
 };
 
 #endif //EXPENSE_SYS_EXPENSE_MANAGER_H
