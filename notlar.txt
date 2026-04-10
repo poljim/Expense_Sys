@@ -1,5 +1,11 @@
 
+//!!! IMPORTANT CHECK: does the first menu break with inner menu's breaks?
+
+
 Yapılacaklar:
+HARCAMALARA İSİM EKLEMEMİŞİZ !!
+bir de eror verebileceği yerler için güncellemeler yapmamız lazım
+
 > girişe menü eklenmesi. (geçen dönemdeki atm uygulaması gibi)
 > vektör mü list mi kullanılacak? (bazı fonksiyonlara stack/queue uymuyordu)
 

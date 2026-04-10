@@ -7,5 +7,4 @@ add_executable(Expense_Sys main.cpp
         Expense.cpp
         ExpenseManager.cpp
         ExpenseManager.h
-        deneme.cpp
-        deneme.h)
+)

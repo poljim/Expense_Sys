@@ -1,8 +1,10 @@
 #include "Expense.h"
+using namespace std;
 
-Expense::Expense(int id, const std::string& category, double amount, const std::string& date) {
+Expense::Expense(int id, const string& name, const string& category, double amount, const string& date) {
     // For string, vector, large objects, we usually prefer const T& because it avoids unnecessary copying.
     this->id = id;
+    this->name = name;
     this->category = category;
     this->amount = amount;
     this->date = date;
@@ -15,7 +17,11 @@ int Expense::getID() const {
     return id;
 }
 
-std::string Expense::getCategory() const {
+string Expense::getName() const {
+    return name;
+}
+
+string Expense::getCategory() const {
     return category;
 }
 
@@ -23,7 +29,7 @@ double Expense::getAmount() const {
     return amount;
 }
 
-std::string Expense::getDate() const {
+string Expense::getDate() const {
     return date;
 }
 // Setter for updating values

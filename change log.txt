@@ -1,0 +1,5 @@
+
+April 10th:
+- added NAME attribute to the Expense object (should we now remove date?)
+- added printexpense function as extra(can be used after filtering too)
+
