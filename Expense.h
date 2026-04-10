@@ -6,18 +6,14 @@
 using namespace std;
 
 class Expense {
-private:
     int id;
-    string category;
+    string category, name, date;
     double amount;
-    string date;
 
 public:
-    Expense(int id, const string& category, double amount, const string& date); // we use & because that way it is less costy to copy strings
-
-    //Expense(int id, const std::string& desc,
-    //const std::string& cat, double amt);
+    Expense(int id, const string& name, const string& category, double amount, const string& date); // we use & because that way it is less costy to copy strings
     int getID() const;
+    string getName() const;
     string getCategory() const;
     double getAmount() const;
     string getDate() const;
