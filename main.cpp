@@ -2,6 +2,8 @@
 #include <chrono>
 #include "Expense.h"
 #include "ExpenseManager.h"
+#include <limits>
+
 
 using namespace std;
 
@@ -27,7 +29,7 @@ int main() {
         switch (option) {
             case 1: {
                 expenseManager.printExpenses();
-            }
+            } break;
             case 2: {
                 string name, category, date;
                 double amount;
@@ -37,19 +39,23 @@ int main() {
 
                 //int size = ExpenseVector.size();
                 cin >> size;
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 for (int i=0; i<size; i++) {
-                    cout << "Enter a name for the expense: ";
-                    cin>>name;
+                    cout << "Enter a name for expense "<<i+1 << ": ";
+                    getline(cin, name);
+                    // cin>>name; <<-- we removed this because when user entered a name with spaces between the cin was ignoring the part
+                    // after the space
                     cout << "Enter category: ";
-                    cin>>category;
+                    getline(cin, category);
                     cout << "Enter amount (double): ";
                     cin>>amount;
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     cout << "Enter date (YYYY-MM-DD): ";
-                    cin>>date;
+                    getline(cin, date);
 
                     // We are creating the objects here
                     expenseManager.addExpense(name, category, amount, date);
-                    cout<<"Expense"<< i+1  <<"has been added successfully!\n"<<endl;
+                    cout<<"Expense "<< i+1  <<" has been added successfully!\n"<<endl;
                 }
                 expenseManager.printExpenses();
             }break;
@@ -71,31 +77,31 @@ int main() {
 
             case 6:
                 // how does the user want to sort the list? by name, amount, category or date?
-                cout<<   "\n1. Sort by category \n"
-                     <<   "2. By amount\n"
-                     <<   "3. By name\n"
+                cout<<   "\n1. Sort by name \n"
+                     <<   "2. By category\n"
+                     <<   "3. By amount\n"
                      <<   "4. By date\n"
                      <<   "How do you wish to sort the list: ";
                 cin >> sortOption;
                 switch (sortOption) {
                     case 1: {
+                        expenseManager.sortByName();
+                        cout<<"Sorted by Name.\n";
+                    }break;
+                    case 2: {
                         expenseManager.sortByCategory();
                         cout<<"Sorted by Category.\n";
                     }break;
-                    case 2: {
+                    case 3: {
                         expenseManager.sortByAmount();
                         cout<<"Sorted by Amount.\n";
-                    }break;
-                    case 3: {
-                        expenseManager.sortByName();
-                        cout<<"Sorted by Name.\n";
                     }break;
                     case 4: {
                         expenseManager.sortByDate();
                         cout<<"Sorted by Date.\n";
                     }break;
                     default: {
-                        cout<<"To sort, enter a number between 0-4.\n";
+                        cout<<"To sort, enter a number between 1-4.\n";
                     }break;
                 }
                 expenseManager.printExpenses();
