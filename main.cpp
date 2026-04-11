@@ -47,8 +47,26 @@ int main() {
                     cout << "Enter a name for expense "<<i+1 << ": ";
                     getline(cin, name);
                     // cin>>name; <<-- we removed this because when user entered a name with spaces, cin was ignoring the later part
-                    cout << "Enter category: ";
+
+
+                    cout << "1. Food\n"
+                         << "2. Transport\n"
+                         << "3. Education\n"
+                         << "4. Health\n"
+                         << "5. Bills\n"
+                         << "6. Other\n"
+                         << "> Choose category: ";
+
                     getline(cin, category);
+
+                    Category category;
+                    try {
+                        category = intToCategory(categoryChoice);
+                    } catch (const invalid_argument& e) {
+                        cout << e.what() << '\n';
+                        continue;
+                    }
+
                     cout << "Enter amount (double): ";
                     cin>>amount;
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -108,6 +126,7 @@ int main() {
                      <<   "2. By category\n"
                      <<   "3. By amount\n"
                      <<   "4. By date\n"
+                     <<   "5. Return back to main menu.\n"
                      <<   "How do you wish to sort the list: ";
                 cin >> sortOption;
                 switch (sortOption) {
@@ -127,20 +146,22 @@ int main() {
                         expenseManager.sortByDate();
                         cout<<"Sorted by Date.\n";
                     }break;
+                    case 5:
+                        break;
                     default: {
                         cout<<"To sort, choose a number between 1-4.\n";
                     }break;
                 }
                 expenseManager.printExpenses();
                 break;
-            
+
             case 0: {
                 condition = false;
                 break;
             }
             default:
                 cout << "Please enter a number between 0-6\n";
-        
+
         }
     }
 };

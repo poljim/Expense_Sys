@@ -17,8 +17,8 @@ void ExpenseManager::removeExpense(int targetId) {
             cout << "ID'si " << targetId << " olan harcama basariyla silindi.\n";
             return; // Silme işlemi tamamlandı, fonksiyondan çık
         }
-        cout << "ID not found.\n";
     }
+    cout << "ID not found.\n";
 }
 
 // Print Expenses
@@ -41,7 +41,7 @@ void ExpenseManager::printExpenses(){
 }
 
 // Add Expense
-void ExpenseManager::addExpense(const string& name, const string& category, double amount, const string& date) {
+void ExpenseManager::addExpense(const string& name, Category category, double amount, const string& date) {
     ExpenseVector.emplace_back(nextId, name, category, amount, date);
     nextId++;
 }
@@ -76,6 +76,15 @@ void ExpenseManager::sortByCategory() {
 
 bool ExpenseManager::isEmpty() const{
     return ExpenseVector.empty();
+}
+
+// Helper functions for testing
+int ExpenseManager::getExpenseCount() const {
+    return ExpenseVector.size();
+}
+
+const Expense &ExpenseManager::getExpenseAt(int index) const {
+    return ExpenseVector.at(index);
 }
 
 

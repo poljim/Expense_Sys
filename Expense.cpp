@@ -3,29 +3,43 @@
 
 using namespace std;
 
-Expense::Expense(int id, const string& name, const string& category, double amount, const string& date) {
-    // For string, vector, large objects, we usually prefer const T& because it avoids unnecessary copying.
+// The constructor
+Expense::Expense(int id, const string& name, Category category, double amount, const string& date) {
+    // For string we used const T& because it avoids unnecessary copying.
     if (name.empty()) {
         throw invalid_argument("Name cannot be empty.\n");
     }
-    if (category.empty()) {
-        throw invalid_argument("Category cannot be empty.\n");
-    }
-    if (amount <= 0) {
+
+    // if (category.empty()) {
+    //     throw invalid_argument("Category cannot be empty.\n");
+    // }
+
+
+    if (amount < 0) {
         throw invalid_argument("Amount cannot be less than 0.\n");
     }
     if (date.size() != 10 || date[4]!= '-' || date[7]!='-') {
         throw invalid_argument("Date must be in YYYY-MM-DD format.\n");
     }
 
-
     this->id = id;
     this->name = name;
     this->category = category;
     this->amount = amount;
     this->date = date;
-    // can use this too> (): id(id), category(category), amount(amount), date(date)
 
+}
+
+string categoryToString(Category category) {
+    switch (category) {
+        case Category::Food: return "Food";
+        case Category::Transport: return "Transport";
+        case Category::Education: return "Education";
+        case Category::Health: return "Health";
+        case Category::Hobby: return "Hobby";
+        case Category::Other: return "Other";
+        default: return "Unknown";
+    }
 }
 
 // The reason they are all constants is getters should not modify values
@@ -37,7 +51,7 @@ string Expense::getName() const {
     return name;
 }
 
-string Expense::getCategory() const {
+Category Expense::getCategory() const {
     return category;
 }
 
@@ -52,3 +66,9 @@ string Expense::getDate() const {
 void Expense::setID(int newID) {
     id = newID;
 }
+
+
+
+//
+
+

@@ -10,18 +10,24 @@ class ExpenseManager {
     vector<Expense> ExpenseVector;
     int nextId = 1;
 
-    public:
-        void addExpense(const string& name, const string& category, double amount, const string& date);
-        void removeExpense(int targetId);
+public:
+    void addExpense(const string& name, Category category, double amount, const string& date);
+    void removeExpense(int targetId);
 
-        void sortByAmount();
-        void sortByCategory();
-        void sortByDate();
-        void sortByName();
+    void sortByAmount();
+    void sortByCategory();
+    void sortByDate();
+    void sortByName();
 
-        void printExpenses();
+    void printExpenses();
 
-        bool isEmpty() const;
+    bool isEmpty() const;
+
+
+    // below helper functions for testing
+    int getExpenseCount() const;
+    const Expense& getExpenseAt(int index) const;
+
 };
 
 #endif //EXPENSE_SYS_EXPENSE_MANAGER_H
