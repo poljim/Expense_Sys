@@ -33,7 +33,7 @@ void ExpenseManager::printExpenses(){
     for (const auto& expense : ExpenseVector) {
         cout << expense.getID() << '\t'
             << expense.getName() << '\t'
-            << expense.categoryToString(expense.getCategory()) << '\t'
+            << categoryToString(expense.getCategory()) << '\t'
             << expense.getAmount() << '\t'
             << expense.getDate() << '\n';
         cout << "----------------------------------------\n";
