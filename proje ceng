@@ -1,1 +1,22 @@
-Naber adamım .
+// ExpenseManager.cpp dosyasının en altına ekle:
+void ExpenseManager::filterByCategory(const string& targetCategory) {
+    bool found = false;
+    cout << "\n--- " << targetCategory << " Kategorisi Filtreleniyor ---\n";
+    cout << "ID\tName\tCategory\tAmount\tDate\n";
+    cout << "--------------------------------------------\n";
+
+    for (const auto& expense : ExpenseVector) {
+        if (expense.getCategory() == targetCategory) {
+            cout << expense.getID() << "\t" 
+                 << expense.getName() << "\t" 
+                 << expense.getCategory() << "\t" 
+                 << expense.getAmount() << "\t" 
+                 << expense.getDate() << "\n";
+            found = true;
+        }
+    }
+
+    if (!found) {
+        cout << "Bu kategoride hic harcama bulunamadi.\n";
+    }
+}
