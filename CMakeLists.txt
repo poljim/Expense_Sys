@@ -10,7 +10,7 @@ add_executable(Expense_Sys
         ExpenseManager.h
 )
 
-#add_executable(Expense_Tests
+add_executable(Expense_Tests
         tests.cpp
         Expense.cpp
         ExpenseManager.cpp
