@@ -49,7 +49,7 @@ void ExpenseManager::addExpense(const string& name, Category category, double am
 
 // Sort Functions
 void ExpenseManager::sortByAmount() {
-    sort(ExpenseVector.begin(), ExpenseVector.end(),
+    sort(ExpenseVector.begin(), ExpenseVector.end(), // We use C's own sort function, which compares elements one by one and updates position if specified condition is true
         [](const Expense& a, const Expense& b) {
             return a.getAmount() < b.getAmount();
         });
@@ -70,13 +70,14 @@ void ExpenseManager::sortByCategory() {
     sort(ExpenseVector.begin(), ExpenseVector.end(),
         [](const Expense& a, const Expense& b) {
 
-			// we are using our string caster method to be able to compare categories alphabetically
-			// (because in the enum list categories are not in alphabetical order)
+			// We are using our string caster method to be able to compare categories alphabetically
+			// (Because in the enum, categories are not in alphabetical order)
             return categoryToString(a.getCategory()) < categoryToString(b.getCategory());
         });
 }
 
-
+// This function is useful in the main where we have to ask for user input first, to be able to run the target function.
+// (Normally this control is in the target function but asking for input would add unnecessary steps for the user. That's why.)
 bool ExpenseManager::isEmpty() const{
     return ExpenseVector.empty();
 }
@@ -85,15 +86,15 @@ bool ExpenseManager::isEmpty() const{
 int ExpenseManager::getExpenseCount() const {
     return ExpenseVector.size();
 }
-
 const Expense &ExpenseManager::getExpenseAt(int index) const {
     return ExpenseVector.at(index);
 }
 
-// there are many user inputs in the main function. so, instead of writing the code below every time again
-// we created a function to be reused for error prevention.
-// this change helps to avoid redundancy and also makes the project easier to build upon. (for example if another menu was to be
-// added later, this function could be used instead of recreating or copying the already existing logic.)
+
+// There are many user inputs which requires error prevention in the main function.
+// Instead of writing the code below again and again, we created a function to be reused.
+// This change helps to avoid redundancy and also makes the project easier to build upon.
+// For example, if another menu was to be added later, this function could be used instead of recreating or copying the already existing logic.
 int readIntInRange(const string& prompt, int min, int max) {
     int value;
 

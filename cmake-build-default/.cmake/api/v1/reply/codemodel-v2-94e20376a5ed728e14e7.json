@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Expense_Sys",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "Expense_Sys::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Expense_Sys-b0eb69a244c696f7dac0.json",
 					"name" : "Expense_Sys",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Expense_Tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Expense_Tests-f60933c6daaf729aaa34.json",
+					"name" : "Expense_Tests",
 					"projectIndex" : 0
 				}
 			]

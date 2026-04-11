@@ -21,26 +21,29 @@ int main() {
              << "[5] Calculate total expense\n"
              << "[6] Sort expenses\n"
              << "[0] Exit.\n";
-        int option = readIntInRange("   > Select an option: ", 0, 6);
+
+        int option = readIntInRange("   > Select an option: ", 0, 6); // Get the user input safely
         switch (option) {
+            // View Expenses
             case 1: {
                 expenseManager.printExpenses();
             } break;
 
+            // Add Expense
             case 2: {
                 string name, date;
                 Category category;
                 double amount;
 
-                int size; // number of loops
-                cout<<"Enter the number of expenses you want to add: "; //??? how to do this more properly, return menu everytime?
+                int size; // Vector size
+                cout<<"Enter the number of expenses you want to add: ";
                 cin >> size;
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
                 for (int i=0; i<size; i++) {
                     cout << "Enter a name for expense "<<i+1 << ": ";
                     getline(cin, name);
-                    // cin>>name; <<-- we removed this because when user entered a name with spaces, cin was ignoring the later part
+                    // cin>>name; <<-- We removed this because when user entered a name with spaces, cin was ignoring the later part
 
                     cout << "1. Food\n"
                          << "2. Transport\n"
@@ -70,6 +73,7 @@ int main() {
                 expenseManager.printExpenses();
             }break;
 
+            // Remove expense
             case 3: {
                 if (expenseManager.isEmpty()) {
                     cout << "No expenses found.\n";
@@ -96,14 +100,16 @@ int main() {
                 expenseManager.removeExpense(idToRemove);
             }break;
 
+                //  Filter Expenses by Category
                 // case 4:
                 //     filterExpense();
 
-
+                // Calculate Total Amount
                 // case 5:
                 //     calcExpense();
                 //     break;
 
+            // Sort Expenses
             case 6: {
                 // return to the main menu if the vector is empty.
                 if (expenseManager.isEmpty()) {
@@ -111,7 +117,7 @@ int main() {
                     break;
                 }
 
-                // how does the user want to sort the list? by name, amount, category or date?
+                // How does the user want to sort the list? by name, amount, category or date?
                 cout<<   "\n1. Sort by name \n"
                      <<   "2. By category\n"
                      <<   "3. By amount\n"
@@ -145,10 +151,13 @@ int main() {
                 expenseManager.printExpenses();
             }break;
 
+            // Quit Program
             case 0: {
                 condition = false;
                 break;
             }
+
+            // Selection is not between 0-6
             default:
                 cout << "Please enter a number between 0-6\n";
 

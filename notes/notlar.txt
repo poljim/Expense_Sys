@@ -6,6 +6,8 @@ Yapılacaklar:
 eror gelebilecek yerler için güncellemeler yapmamız lazım (örn sayı yerine yazı girerse)
 add expenste kategoriyi seçtirmemiz mi lazım filterin çalışması için?
 
+ZORTTA DA EGER VEKTOR BOSSA DIREKT BOS ULAN BU VEKTOR DEYIP KAPAMASI LAZIM
+
 
 filtreleme özelliğine girildiğinde şimdiye kadar kaydedilmiş türleri listeleyip oradan seçtirebilir
 
