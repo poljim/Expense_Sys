@@ -49,7 +49,6 @@ int main() {
                     getline(cin, name);
                     // cin>>name; <<-- we removed this because when user entered a name with spaces, cin was ignoring the later part
 
-
                     cout << "1. Food\n"
                          << "2. Transport\n"
                          << "3. Education\n"

@@ -14,6 +14,9 @@ enum class Category {
     Other,
 };
 
+string categoryToString(Category category);
+
+
 class Expense {
     int id;
     Category category;
@@ -31,7 +34,6 @@ public:
     //setters for updating values
     void setID(int newID);
 
-    string categoryToString(Category category) const;
 
 };
 
