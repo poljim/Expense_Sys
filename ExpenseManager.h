@@ -20,6 +20,8 @@ class ExpenseManager {
         void sortByName();
 
         void printExpenses();
+
+        bool isEmpty() const;
 };
 
 #endif //EXPENSE_SYS_EXPENSE_MANAGER_H
