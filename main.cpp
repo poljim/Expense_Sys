@@ -3,7 +3,7 @@
 #include "Expense.h"
 #include "ExpenseManager.h"
 #include <limits>
-
+#include <string>
 
 using namespace std;
 
@@ -11,16 +11,17 @@ int main() {
     ExpenseManager expenseManager;
     bool condition = true;
 
-    // Print the menu
+    // Print the main menu
     while (condition){
-        cout << "\n1. View expenses\n"
-             << "2. Add expense\n"
-             << "3. Remove expense\n"
-             << "4. Filter expenses\n"
-             << "5. Calculate total expense\n"
-             << "6. Sort expenses\n"
-             << "0. Exit.\n"
-             << "Welcome to Expense Manager! Please choose the action you want to take: ";
+        cout <<"\n\n======== Welcome to Expense Manager! ========\n"
+             << "[1] View expenses\n"
+             << "[2] Add expense\n"
+             << "[3] Remove expense\n"
+             << "[4] Filter expenses\n"
+             << "[5] Calculate total expense\n"
+             << "[6] Sort expenses\n"
+             << "[0] Exit.\n"
+             << "   > Select an option: ";
 
         int option;     // for the main menu
         int sortOption; // for the sort function's menu
@@ -30,6 +31,7 @@ int main() {
             case 1: {
                 expenseManager.printExpenses();
             } break;
+
             case 2: {
                 string name, category, date;
                 double amount;
@@ -40,11 +42,11 @@ int main() {
                 //int size = ExpenseVector.size();
                 cin >> size;
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
                 for (int i=0; i<size; i++) {
                     cout << "Enter a name for expense "<<i+1 << ": ";
                     getline(cin, name);
-                    // cin>>name; <<-- we removed this because when user entered a name with spaces between the cin was ignoring the part
-                    // after the space
+                    // cin>>name; <<-- we removed this because when user entered a name with spaces, cin was ignoring the later part
                     cout << "Enter category: ";
                     getline(cin, category);
                     cout << "Enter amount (double): ";
@@ -54,17 +56,42 @@ int main() {
                     getline(cin, date);
 
                     // We are creating the objects here
-                    expenseManager.addExpense(name, category, amount, date);
-                    cout<<"Expense "<< i+1  <<" has been added successfully!\n"<<endl;
+                    try {
+                        expenseManager.addExpense(name, category, amount, date);
+                        cout<<"Expense "<< i+1  <<" has been added successfully!\n\n"<<endl;
+                    }catch(const invalid_argument& error) {
+                        cout<<"Error: "<<error.what()<<'\n'; // '\n' instead of "\n" because new line is a character
+                        i--;
+                        continue;
+                    }
                 }
                 expenseManager.printExpenses();
             }break;
 
             case 3: {
-            int idToRemove;
-            cout << "Enter the ID of the expense you want to remove: \n\n";
-            cin >> idToRemove;
-            expenseManager.removeExpense(idToRemove);
+                if (expenseManager.isEmpty()) {
+                    cout << "No expenses found.\n";
+                    break;
+                }
+
+                int idToRemove;
+                cout << "Enter the ID of the expense you want to remove: ";
+                cin >> idToRemove;
+
+                if (cin.fail()) {
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    cout<<"Invalid input. Please enter an integer ID.\n";
+                    break;
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+                if (idToRemove<=0) {
+                    cout<<"ID must be a positive integer.\n";
+                    break;
+                }
+
+                expenseManager.removeExpense(idToRemove);
             }break;
 
             // case 4:
@@ -101,7 +128,7 @@ int main() {
                         cout<<"Sorted by Date.\n";
                     }break;
                     default: {
-                        cout<<"To sort, enter a number between 1-4.\n";
+                        cout<<"To sort, choose a number between 1-4.\n";
                     }break;
                 }
                 expenseManager.printExpenses();
@@ -112,7 +139,7 @@ int main() {
                 break;
             }
             default:
-                cout << "Please enter a number between 0-5\n";
+                cout << "Please enter a number between 0-6\n";
         
         }
     }

@@ -9,14 +9,15 @@ using namespace std;
 // Remove Expense
 void ExpenseManager::removeExpense(int targetId) {
     // Vektörün içinde dolaşmak için bir iterator (it) kullanıyoruz
-    for (auto it = ExpenseVector.begin(); it != ExpenseVector.end(); ++it) {
 
+    for (auto it = ExpenseVector.begin(); it != ExpenseVector.end(); ++it) {
         // Eğer harcamanın ID'si eşleşirse:
         if (it->getID() == targetId) {
             ExpenseVector.erase(it); // Vektörden sil
             cout << "ID'si " << targetId << " olan harcama basariyla silindi.\n";
             return; // Silme işlemi tamamlandı, fonksiyondan çık
         }
+        cout << "ID not found.\n";
     }
 }
 
@@ -73,7 +74,9 @@ void ExpenseManager::sortByCategory() {
 }
 
 
-
+bool ExpenseManager::isEmpty() const{
+    return ExpenseVector.empty();
+}
 
 
 
