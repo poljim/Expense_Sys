@@ -117,7 +117,7 @@ int main() {
                     break;
                 }
 
-                // how does the user want to sort the list? by name, amount, category or date?
+                // How does the user want to sort the list? by name, amount, category or date?
                 cout<<   "\n1. Sort by name \n"
                      <<   "2. By category\n"
                      <<   "3. By amount\n"
