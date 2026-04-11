@@ -16,5 +16,23 @@
   "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\Expense_Sys.dir\\ExpenseManager.cpp.obj -c C:\\Users\\chö\\CLionProjects\\Expense_Sys\\ExpenseManager.cpp",
   "file": "C:/Users/chö/CLionProjects/Expense_Sys/ExpenseManager.cpp",
   "output": "C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/Expense_Sys.dir/ExpenseManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\Expense_Tests.dir\\tests.cpp.obj -c C:\\Users\\chö\\CLionProjects\\Expense_Sys\\tests.cpp",
+  "file": "C:/Users/chö/CLionProjects/Expense_Sys/tests.cpp",
+  "output": "C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/Expense_Tests.dir/tests.cpp.obj"
+},
+{
+  "directory": "C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\Expense_Tests.dir\\Expense.cpp.obj -c C:\\Users\\chö\\CLionProjects\\Expense_Sys\\Expense.cpp",
+  "file": "C:/Users/chö/CLionProjects/Expense_Sys/Expense.cpp",
+  "output": "C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/Expense_Tests.dir/Expense.cpp.obj"
+},
+{
+  "directory": "C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\Expense_Tests.dir\\ExpenseManager.cpp.obj -c C:\\Users\\chö\\CLionProjects\\Expense_Sys\\ExpenseManager.cpp",
+  "file": "C:/Users/chö/CLionProjects/Expense_Sys/ExpenseManager.cpp",
+  "output": "C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/Expense_Tests.dir/ExpenseManager.cpp.obj"
 }
 ]

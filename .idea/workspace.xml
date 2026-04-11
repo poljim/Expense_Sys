@@ -20,6 +20,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="Expense_Sys" targetName="Expense_Tests" />
       <config projectName="Expense_Sys" targetName="Expense_Sys" />
     </generated>
   </component>
@@ -31,7 +32,16 @@
   <component name="ChangeListManager">
     <list default="true" id="6cdc50c5-e6ae-4a90-9fc7-e613292790ac" name="Changes" comment="Fix bugs connected to Adding and Sorting expenses.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expense.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Expense.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/codemodel-v2-43608bf4f00cd5c89b0e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/compile_commands.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +104,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;C/C++ File.tests.cpp.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.Expense_Sys.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
@@ -132,12 +143,33 @@
       <recent name="C:\Users\chö\CLionProjects\Expense_Sys" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="C/C++ File.tests.cpp">
     <configuration name="Expense_Sys" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Expense_Sys" TARGET_NAME="Expense_Sys" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Expense_Sys" RUN_TARGET_NAME="Expense_Sys">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Expense_Tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Expense_Sys" TARGET_NAME="Expense_Tests" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Expense_Sys" RUN_TARGET_NAME="Expense_Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Expense_Sys" TARGET_NAME="tests.cpp" CONFIG_NAME="tests.cpp">
+      <option name="sourceFile" value="tests.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Expense_Sys" />
+      <item itemvalue="CMake Application.Expense_Tests" />
+      <item itemvalue="C/C++ File.tests.cpp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.tests.cpp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -160,7 +192,8 @@
       <workItem from="1775900234444" duration="1164000" />
       <workItem from="1775901493249" duration="1021000" />
       <workItem from="1775916382080" duration="90000" />
-      <workItem from="1775916485458" duration="656000" />
+      <workItem from="1775916485458" duration="1139000" />
+      <workItem from="1775917653387" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="deneme :)">
       <option name="closed" value="true" />
@@ -242,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775916566784</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fix bugs connected to Adding and Sorting expenses.">
+      <option name="closed" value="true" />
+      <created>1775917152200</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775917152200</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
