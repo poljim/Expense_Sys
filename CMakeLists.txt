@@ -1,10 +1,3 @@
-#add_executable(Expense_Sys main.cpp
-#        Expense.cpp
-#        ExpenseManager.cpp
-#        ExpenseManager.h
-#        tests.cpp
-#)
-
 cmake_minimum_required(VERSION 4.1)
 project(Expense_Sys)
 
@@ -16,10 +9,10 @@ add_executable(Expense_Sys
         ExpenseManager.cpp
         ExpenseManager.h
 )
-
-add_executable(Expense_Tests
-        tests.cpp
-        Expense.cpp
-        ExpenseManager.cpp
-        ExpenseManager.h
-)
+#
+#add_executable(Expense_Tests
+#        tests.cpp
+#        Expense.cpp
+#        ExpenseManager.cpp
+#        ExpenseManager.h
+#)

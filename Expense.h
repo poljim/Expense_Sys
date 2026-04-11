@@ -31,6 +31,8 @@ public:
     //setters for updating values
     void setID(int newID);
 
+    string categoryToString(Category category) const;
+
 };
 
 #endif //EXPENSE_SYS_EXPENSE_H

@@ -1,6 +1,6 @@
 
 April 11th:
-- added tests (it turns out that for unit tests we need some helper functions to be able to iterate over the objects)
+- it turns out that for unit tests we need some helper functions to be able to iterate over the objects
 
 
 April 10th:

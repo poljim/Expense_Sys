@@ -3,7 +3,6 @@
 
 using namespace std;
 
-// The constructor
 Expense::Expense(int id, const string& name, Category category, double amount, const string& date) {
     // For string we used const T& because it avoids unnecessary copying.
     if (name.empty()) {
@@ -66,9 +65,5 @@ string Expense::getDate() const {
 void Expense::setID(int newID) {
     id = newID;
 }
-
-
-
-//
 
 
