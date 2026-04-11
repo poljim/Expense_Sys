@@ -14,7 +14,7 @@ Expense::Expense(int id, const string& name, Category category, double amount, c
     if (date.size() != 10 || date[4]!= '-' || date[7]!='-') {
         throw invalid_argument("Date must be in YYYY-MM-DD format.\n");
     }
-    if (date[5]>2 || date[5]==1 && date[6]>2 || date[8]>3 || date[8]==3 && date[9]>1) {
+    if (date[5]>2 || date[5]==1 && date[6]>2 || date[8]>3 || date[8]==3 && date[9]>1 || date[1]>0 || date[0]>2 || date[0]<1) {
         throw invalid_argument("Date must be in YYYY-MM-DD format.\n");
     }
     // if (category.empty()) {

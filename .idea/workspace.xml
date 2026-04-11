@@ -29,32 +29,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cdc50c5-e6ae-4a90-9fc7-e613292790ac" name="Changes" comment="Base of the Expense Class">
+    <list default="true" id="6cdc50c5-e6ae-4a90-9fc7-e613292790ac" name="Changes" comment="Fix bugs connected to Adding and Sorting expenses.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expense.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Expense.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expense.h" beforeDir="false" afterPath="$PROJECT_DIR$/Expense.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpenseManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpenseManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/change log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/cmakeFiles-v1-ccf6949129fbaa7ed9fa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/index-2026-03-03T13-21-29-0939.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Expense_Sys.dir/Expense.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Expense_Sys.dir/Expense.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Expense_Sys.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Expense_Sys.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notlar.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +124,7 @@
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="ss" />
+      <force-push-target remote-path="origin" branch="su2" />
     </force-push-targets>
   </component>
   <component name="RecentsManager">
@@ -182,7 +160,7 @@
       <workItem from="1775900234444" duration="1164000" />
       <workItem from="1775901493249" duration="1021000" />
       <workItem from="1775916382080" duration="90000" />
-      <workItem from="1775916485458" duration="11000" />
+      <workItem from="1775916485458" duration="656000" />
     </task>
     <task id="LOCAL-00001" summary="deneme :)">
       <option name="closed" value="true" />
@@ -256,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772550630357</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix bugs connected to Adding and Sorting expenses.">
+      <option name="closed" value="true" />
+      <created>1775916566784</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775916566784</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +281,7 @@
     <MESSAGE value="z" />
     <MESSAGE value="deleted file project ceng" />
     <MESSAGE value="Base of the Expense Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base of the Expense Class" />
+    <MESSAGE value="Fix bugs connected to Adding and Sorting expenses." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs connected to Adding and Sorting expenses." />
   </component>
 </project>
