@@ -4,6 +4,8 @@
 #include <vector>
 #include <string>
 using namespace std;
+int readIntInRange(const string& prompt, int min, int max);
+
 
 class ExpenseManager {
     // used vectors since time complexity for accessing elements by index is 1, whereas for lists it's n.

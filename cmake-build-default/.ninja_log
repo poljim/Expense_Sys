@@ -1,3 +1,14 @@
 # ninja log v6
 2	466	7942499606823724	CMakeFiles/Expense_Sys.dir/main.cpp.obj	9417c40dfc48c0ec
 7	1120	7942499606870231	CMakeFiles/Expense_Sys.dir/Expense.cpp.obj	9ce4b02e9aabadde
+16	1324	7976034516906919	CMakeFiles/Expense_Sys.dir/main.cpp.obj	9417c40dfc48c0ec
+21	1336	7976034516954838	CMakeFiles/Expense_Sys.dir/Expense.cpp.obj	9ce4b02e9aabadde
+12	1355	7976040583714738	CMakeFiles/Expense_Sys.dir/Expense.cpp.obj	9ce4b02e9aabadde
+7	1362	7976040583668281	CMakeFiles/Expense_Sys.dir/main.cpp.obj	9417c40dfc48c0ec
+15	1477	7976041784099156	CMakeFiles/Expense_Sys.dir/main.cpp.obj	9417c40dfc48c0ec
+16	1527	7976044363457060	CMakeFiles/Expense_Sys.dir/main.cpp.obj	9417c40dfc48c0ec
+21	1533	7976044363502686	CMakeFiles/Expense_Sys.dir/Expense.cpp.obj	9ce4b02e9aabadde
+25	1747	7976044363546475	CMakeFiles/Expense_Sys.dir/ExpenseManager.cpp.obj	236d86c3ff5dac1b
+1747	1876	7976044380752092	Expense_Sys.exe	cdfa11b09f076cd9
+10	1572	7976057573066821	CMakeFiles/Expense_Sys.dir/main.cpp.obj	9417c40dfc48c0ec
+1572	1818	7976057588687979	Expense_Sys.exe	cdfa11b09f076cd9

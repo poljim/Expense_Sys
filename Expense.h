@@ -8,8 +8,8 @@ using namespace std;
 enum class Category {
     Food =1,
     Transport,
-    Health,
     Education,
+    Health,
     Hobby,
     Other,
 };
