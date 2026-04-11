@@ -20,27 +20,20 @@ int main() {
              << "[4] Filter expenses\n"
              << "[5] Calculate total expense\n"
              << "[6] Sort expenses\n"
-             << "[0] Exit.\n"
-             << "   > Select an option: ";
-
-        int option;     // for the main menu
-        int sortOption; // for the sort function's menu
-
-        cin>> option;
+             << "[0] Exit.\n";
+        int option = readIntInRange("   > Select an option: ", 0, 6);
         switch (option) {
             case 1: {
                 expenseManager.printExpenses();
             } break;
 
             case 2: {
-                string name, category, date;
+                string name, date;
+                Category category;
                 double amount;
-                int categoryChoice;
 
                 int size; // number of loops
                 cout<<"Enter the number of expenses you want to add: "; //??? how to do this more properly, return menu everytime?
-
-                //int size = ExpenseVector.size();
                 cin >> size;
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
@@ -49,30 +42,23 @@ int main() {
                     getline(cin, name);
                     // cin>>name; <<-- we removed this because when user entered a name with spaces, cin was ignoring the later part
 
-
                     cout << "1. Food\n"
                          << "2. Transport\n"
                          << "3. Education\n"
                          << "4. Health\n"
                          << "5. Hobby\n"
-                         << "6. Other\n"
-                         << "> Choose category: ";
-                    cin >> categoryChoice;
-                    if (cin.fail() || categoryChoice<1 || categoryChoice>6) {
-                        cout << "Invalid input. Please choose a number between 1-6.\n";
-                        continue;
-                    }
-                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                         << "6. Other\n";
+                    int categoryChoice = readIntInRange("> Choose category: ", 1, 6);
                     Category category = static_cast<Category>(categoryChoice);
 
                     cout << "Enter amount (double): ";
                     cin>>amount;
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
                     cout << "Enter date (YYYY-MM-DD): ";
                     getline(cin, date);
-
-                    // We are creating the objects here
                     try {
+                        // We are creating the objects here
                         expenseManager.addExpense(name, category, amount, date);
                         cout<<"Expense "<< i+1  <<" has been added successfully!\n\n"<<endl;
                     }catch(const invalid_argument& error) {
@@ -110,23 +96,29 @@ int main() {
                 expenseManager.removeExpense(idToRemove);
             }break;
 
-            // case 4:
-            //     filterExpense();
+                // case 4:
+                //     filterExpense();
 
 
-            // case 5:
-            //     calcExpense();
-            //     break;
+                // case 5:
+                //     calcExpense();
+                //     break;
 
-            case 6:
+            case 6: {
+                // return to the main menu if the vector is empty.
+                if (expenseManager.isEmpty()) {
+                    cout << "No expenses found.\n";
+                    break;
+                }
+
                 // how does the user want to sort the list? by name, amount, category or date?
                 cout<<   "\n1. Sort by name \n"
                      <<   "2. By category\n"
                      <<   "3. By amount\n"
                      <<   "4. By date\n"
-                     <<   "5. Return back to main menu.\n"
-                     <<   "How do you wish to sort the list: ";
-                cin >> sortOption;
+                     <<   "5. Return back to main menu.\n";
+
+                int sortOption = readIntInRange("Choose how you want to sort expenses: ", 1, 5);
                 switch (sortOption) {
                     case 1: {
                         expenseManager.sortByName();
@@ -151,7 +143,7 @@ int main() {
                     }break;
                 }
                 expenseManager.printExpenses();
-                break;
+            }break;
 
             case 0: {
                 condition = false;

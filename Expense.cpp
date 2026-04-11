@@ -8,18 +8,18 @@ Expense::Expense(int id, const string& name, Category category, double amount, c
     if (name.empty()) {
         throw invalid_argument("Name cannot be empty.\n");
     }
-
-    // if (category.empty()) {
-    //     throw invalid_argument("Category cannot be empty.\n");
-    // }
-
-
     if (amount < 0) {
         throw invalid_argument("Amount cannot be less than 0.\n");
     }
     if (date.size() != 10 || date[4]!= '-' || date[7]!='-') {
         throw invalid_argument("Date must be in YYYY-MM-DD format.\n");
     }
+    if (date[5]>2 || date[5]==1 && date[6]>2 || date[8]>3 || date[8]==3 && date[9]>1) {
+        throw invalid_argument("Date must be in YYYY-MM-DD format.\n");
+    }
+    // if (category.empty()) {
+    //     throw invalid_argument("Category cannot be empty.\n");
+    // }
 
     this->id = id;
     this->name = name;

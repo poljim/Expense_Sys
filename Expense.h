@@ -8,11 +8,14 @@ using namespace std;
 enum class Category {
     Food =1,
     Transport,
-    Health,
     Education,
+    Health,
     Hobby,
     Other,
 };
+
+string categoryToString(Category category);
+
 
 class Expense {
     int id;
@@ -31,7 +34,6 @@ public:
     //setters for updating values
     void setID(int newID);
 
-    string categoryToString(Category category) const;
 
 };
 

@@ -33,7 +33,7 @@ void ExpenseManager::printExpenses(){
     for (const auto& expense : ExpenseVector) {
         cout << expense.getID() << '\t'
             << expense.getName() << '\t'
-            << expense.categoryToString(expense.getCategory()) << '\t'
+            << categoryToString(expense.getCategory()) << '\t'
             << expense.getAmount() << '\t'
             << expense.getDate() << '\n';
         cout << "----------------------------------------\n";
@@ -90,7 +90,34 @@ const Expense &ExpenseManager::getExpenseAt(int index) const {
     return ExpenseVector.at(index);
 }
 
+// there are many user inputs in the main function. so, instead of writing the code below every time again
+// we created a function to be reused for error prevention.
+// this change helps to avoid redundancy and also makes the project easier to build upon. (for example if another menu was to be
+// added later, this function could be used instead of recreating or copying the already existing logic.)
+int readIntInRange(const string& prompt, int min, int max) {
+    int value;
 
+    while (true) {
+        cout << prompt;
+        cin >> value;
 
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << "\nInvalid input. Please enter an integer.\n";
+            continue;
+        }
+
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+        if (value < min || value > max) {
+            cout << "\nInvalid input. Please enter a number between "
+                 << min << " and " << max << ".\n";
+            continue;
+        }
+
+        return value;
+    }
+}
 
 
