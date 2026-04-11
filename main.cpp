@@ -35,6 +35,7 @@ int main() {
             case 2: {
                 string name, category, date;
                 double amount;
+                int categoryChoice;
 
                 int size; // number of loops
                 cout<<"Enter the number of expenses you want to add: "; //??? how to do this more properly, return menu everytime?
@@ -53,19 +54,16 @@ int main() {
                          << "2. Transport\n"
                          << "3. Education\n"
                          << "4. Health\n"
-                         << "5. Bills\n"
+                         << "5. Hobby\n"
                          << "6. Other\n"
                          << "> Choose category: ";
-
-                    getline(cin, category);
-
-                    Category category;
-                    try {
-                        category = intToCategory(categoryChoice);
-                    } catch (const invalid_argument& e) {
-                        cout << e.what() << '\n';
+                    cin >> categoryChoice;
+                    if (cin.fail() || categoryChoice<1 || categoryChoice>6) {
+                        cout << "Invalid input. Please choose a number between 1-6.\n";
                         continue;
                     }
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    Category category = static_cast<Category>(categoryChoice);
 
                     cout << "Enter amount (double): ";
                     cin>>amount;

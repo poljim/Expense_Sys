@@ -1,16 +1,17 @@
 #include <cassert>
 #include <iostream>
+#include <stdexcept>
 #include "ExpenseManager.h"
 
 using namespace std;
 
 void testAddExpense() {
     ExpenseManager manager;
-    manager.addExpense("Coffee", "Food", 50.0, "2026-04-11");
+    manager.addExpense("Coffee", Category::Food, 50.0, "2026-04-11");
 
     assert(manager.getExpenseCount() == 1);
     assert(manager.getExpenseAt(0).getName() == "Coffee");
-    assert(manager.getExpenseAt(0).getCategory() == "Food");
+    assert(manager.getExpenseAt(0).getCategory() == Category::Food);
     assert(manager.getExpenseAt(0).getAmount() == 50.0);
     assert(manager.getExpenseAt(0).getDate() == "2026-04-11");
     assert(manager.getExpenseAt(0).getID() == 1);
@@ -18,8 +19,8 @@ void testAddExpense() {
 
 void testRemoveExpense() {
     ExpenseManager manager;
-    manager.addExpense("Coffee", "Food", 50.0, "2026-04-11");
-    manager.addExpense("Taxi", "Transport", 100.0, "2026-04-10");
+    manager.addExpense("Coffee", Category::Food, 50.0, "2026-04-11");
+    manager.addExpense("Taxi", Category::Transport, 100.0, "2026-04-10");
 
     manager.removeExpense(1);
 
@@ -30,9 +31,9 @@ void testRemoveExpense() {
 
 void testSortByAmount() {
     ExpenseManager manager;
-    manager.addExpense("Taxi", "Transport", 100.0, "2026-04-10");
-    manager.addExpense("Coffee", "Food", 50.0, "2026-04-11");
-    manager.addExpense("Book", "Education", 75.0, "2026-04-09");
+    manager.addExpense("Taxi", Category::Transport, 100.0, "2026-04-10");
+    manager.addExpense("Coffee", Category::Food, 50.0, "2026-04-11");
+    manager.addExpense("Book", Category::Education, 75.0, "2026-04-09");
 
     manager.sortByAmount();
 
@@ -43,9 +44,9 @@ void testSortByAmount() {
 
 void testSortByName() {
     ExpenseManager manager;
-    manager.addExpense("Taxi", "Transport", 100.0, "2026-04-10");
-    manager.addExpense("Book", "Education", 75.0, "2026-04-09");
-    manager.addExpense("Coffee", "Food", 50.0, "2026-04-11");
+    manager.addExpense("Taxi", Category::Transport, 100.0, "2026-04-10");
+    manager.addExpense("Book", Category::Education, 75.0, "2026-04-09");
+    manager.addExpense("Coffee", Category::Food, 50.0, "2026-04-11");
 
     manager.sortByName();
 
@@ -56,22 +57,22 @@ void testSortByName() {
 
 void testSortByCategory() {
     ExpenseManager manager;
-    manager.addExpense("Taxi", "Transport", 100.0, "2026-04-10");
-    manager.addExpense("Coffee", "Food", 50.0, "2026-04-11");
-    manager.addExpense("Book", "Education", 75.0, "2026-04-09");
+    manager.addExpense("Taxi", Category::Transport, 100.0, "2026-04-10");
+    manager.addExpense("Coffee", Category::Food, 50.0, "2026-04-11");
+    manager.addExpense("Book", Category::Education, 75.0, "2026-04-09");
 
     manager.sortByCategory();
 
-    assert(manager.getExpenseAt(0).getCategory() == "Education");
-    assert(manager.getExpenseAt(1).getCategory() == "Food");
-    assert(manager.getExpenseAt(2).getCategory() == "Transport");
+    assert(manager.getExpenseAt(0).getCategory() == Category::Education);
+    assert(manager.getExpenseAt(1).getCategory() == Category::Food);
+    assert(manager.getExpenseAt(2).getCategory() == Category::Transport);
 }
 
 void testSortByDate() {
     ExpenseManager manager;
-    manager.addExpense("Taxi", "Transport", 100.0, "2026-04-10");
-    manager.addExpense("Coffee", "Food", 50.0, "2026-04-11");
-    manager.addExpense("Book", "Education", 75.0, "2026-04-09");
+    manager.addExpense("Taxi", Category::Transport, 100.0, "2026-04-10");
+    manager.addExpense("Coffee", Category::Food, 50.0, "2026-04-11");
+    manager.addExpense("Book", Category::Education, 75.0, "2026-04-09");
 
     manager.sortByDate();
 
@@ -80,25 +81,27 @@ void testSortByDate() {
     assert(manager.getExpenseAt(2).getDate() == "2026-04-11");
 }
 
-// ---------------------------- edge case tests --------------------------------
+// edge case tests
 
 void testEmptyManager() {
     ExpenseManager manager;
     assert(manager.getExpenseCount() == 0);
 }
+
 void testRemoveNonExistingId() {
     ExpenseManager manager;
-    manager.addExpense("Coffee", "Food", 50.0, "2026-04-11");
+    manager.addExpense("Coffee", Category::Food, 50.0, "2026-04-11");
 
     manager.removeExpense(99);
 
     assert(manager.getExpenseCount() == 1);
     assert(manager.getExpenseAt(0).getName() == "Coffee");
 }
+
 void testDuplicateRecords() {
     ExpenseManager manager;
-    manager.addExpense("Coffee", "Food", 50.0, "2026-04-11");
-    manager.addExpense("Coffee", "Food", 50.0, "2026-04-11");
+    manager.addExpense("Coffee", Category::Food, 50.0, "2026-04-11");
+    manager.addExpense("Coffee", Category::Food, 50.0, "2026-04-11");
 
     assert(manager.getExpenseCount() == 2);
     assert(manager.getExpenseAt(0).getID() != manager.getExpenseAt(1).getID());
@@ -109,7 +112,7 @@ void testEmptyNameThrows() {
     bool thrown = false;
 
     try {
-        manager.addExpense("", "Food", 50.0, "2026-04-11");
+        manager.addExpense("", Category::Food, 50.0, "2026-04-11");
     } catch (const invalid_argument&) {
         thrown = true;
     }
@@ -122,7 +125,7 @@ void testNegativeAmountThrows() {
     bool thrown = false;
 
     try {
-        manager.addExpense("Coffee", "Food", -5.0, "2026-04-11");
+        manager.addExpense("Coffee", Category::Food, -5.0, "2026-04-11");
     } catch (const invalid_argument&) {
         thrown = true;
     }
@@ -135,15 +138,13 @@ void testInvalidDateThrows() {
     bool thrown = false;
 
     try {
-        manager.addExpense("Coffee", "Food", 50.0, "11-04-2026");
+        manager.addExpense("Coffee", Category::Food, 50.0, "11-04-2026");
     } catch (const invalid_argument&) {
         thrown = true;
     }
 
     assert(thrown);
 }
-
-
 
 int main() {
     testAddExpense();
@@ -156,6 +157,8 @@ int main() {
     testDuplicateRecords();
     testRemoveNonExistingId();
     testEmptyManager();
+    testEmptyNameThrows();
+    testNegativeAmountThrows();
     testInvalidDateThrows();
 
     cout << "All tests passed.\n";

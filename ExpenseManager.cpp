@@ -33,7 +33,7 @@ void ExpenseManager::printExpenses(){
     for (const auto& expense : ExpenseVector) {
         cout << expense.getID() << '\t'
             << expense.getName() << '\t'
-            << expense.getCategory() << '\t'
+            << expense.categoryToString(expense.getCategory()) << '\t'
             << expense.getAmount() << '\t'
             << expense.getDate() << '\n';
         cout << "----------------------------------------\n";
@@ -69,7 +69,10 @@ void ExpenseManager::sortByDate() {
 void ExpenseManager::sortByCategory() {
     sort(ExpenseVector.begin(), ExpenseVector.end(),
         [](const Expense& a, const Expense& b) {
-            return a.getCategory() < b.getCategory();
+
+			// we are using our string caster method to be able to compare categories alphabetically
+			// (because in the enum list categories are not in alphabetical order)
+            return categoryToString(a.getCategory()) < categoryToString(b.getCategory());
         });
 }
 
