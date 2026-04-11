@@ -4,7 +4,7 @@
 using namespace std;
 
 Expense::Expense(int id, const string& name, Category category, double amount, const string& date) {
-    // For string we used const T& because it avoids unnecessary copying.
+    // For strings, we used const and & because that way we avoid unnecessary copying.
     if (name.empty()) {
         throw invalid_argument("Name cannot be empty.\n");
     }
@@ -17,9 +17,6 @@ Expense::Expense(int id, const string& name, Category category, double amount, c
     if (date[5]>2 || date[5]==1 && date[6]>2 || date[8]>3 || date[8]==3 && date[9]>1 || date[1]>0 || date[0]>2 || date[0]<1 || date[2]>2 ||date[2]==2 && date[3]>6) {
         throw invalid_argument("Date must be in YYYY-MM-DD format.\n");
     }
-    // if (category.empty()) {
-    //     throw invalid_argument("Category cannot be empty.\n");
-    // }
 
     this->id = id;
     this->name = name;
@@ -63,7 +60,8 @@ string Expense::getDate() const {
 }
 // Setter for updating values
 void Expense::setID(int newID) {
-    id = newID;
+    id = newID; // We use newID to keep track of the object id's accurately, even when add function is called more than 1 time.
+    // The use of the variable can be seen in addExpense() function in ExpenseManager.cpp
 }
 
 

@@ -32,16 +32,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6cdc50c5-e6ae-4a90-9fc7-e613292790ac" name="Changes" comment="Fix bugs connected to Adding and Sorting expenses.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expense.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Expense.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/codemodel-v2-43608bf4f00cd5c89b0e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpenseManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +186,8 @@
       <workItem from="1775901493249" duration="1021000" />
       <workItem from="1775916382080" duration="90000" />
       <workItem from="1775916485458" duration="1139000" />
-      <workItem from="1775917653387" duration="11000" />
+      <workItem from="1775917653387" duration="26000" />
+      <workItem from="1775921312578" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="deneme :)">
       <option name="closed" value="true" />
@@ -283,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775917152200</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix bugs connected to Adding and Sorting expenses.">
+      <option name="closed" value="true" />
+      <created>1775917669005</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1775917669005</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

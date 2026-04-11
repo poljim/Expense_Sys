@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Expense_Sys",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Expense_Sys::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Expense_Sys-b0eb69a244c696f7dac0.json",
+					"name" : "Expense_Sys",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Expense_Tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Expense_Tests-f60933c6daaf729aaa34.json",
+					"name" : "Expense_Tests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ch\u00f6/CLionProjects/Expense_Sys/cmake-build-default",
+		"source" : "C:/Users/ch\u00f6/CLionProjects/Expense_Sys"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
