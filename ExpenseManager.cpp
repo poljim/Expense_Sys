@@ -1,8 +1,10 @@
 #include "ExpenseManager.h"
-#include "Expense.h" //include only header files, not cpp
+#include "Expense.h" //include only header files, no cpp
 #include <iostream>
 #include <vector>
 #include <string>
+#include <algorithm> // for sort()
+#include <limits> // for numeric_limits
 
 using namespace std;
 
@@ -75,6 +77,15 @@ void ExpenseManager::sortByCategory() {
             return categoryToString(a.getCategory()) < categoryToString(b.getCategory());
         });
 }
+void ExpenseManager::sortById(){
+    sort(ExpenseVector.begin(), ExpenseVector.end(),
+        [](const Expense& a, const Expense& b){
+            return a.getID() < b.getID();
+        });
+}
+
+
+
 
 // This function is useful in the main where we have to ask for user input first, to be able to run the target function.
 // (Normally this control is in the target function but asking for input would add unnecessary steps for the user. That's why.)
@@ -95,7 +106,7 @@ const Expense &ExpenseManager::getExpenseAt(int index) const {
 // Instead of writing the code below again and again, we created a function to be reused.
 // This change helps to avoid redundancy and also makes the project easier to build upon.
 // For example, if another menu was to be added later, this function could be used instead of recreating or copying the already existing logic.
-int readIntInRange(const string& prompt, int min, int max) {
+int readIntInRange(const string& prompt, int min, int max, const string& notANumber) {
     int value;
 
     while (true) {
@@ -105,7 +116,9 @@ int readIntInRange(const string& prompt, int min, int max) {
         if (cin.fail()) {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            cout << "\nInvalid input. Please enter an integer.\n";
+            cout << notANumber; // Here we used a variable to print out instead of a certain string, for future development
+            // This way the program outputs can be configured and be less repetitive for the user
+            // Though it is not the best way to implement this logic
             continue;
         }
 
@@ -114,6 +127,56 @@ int readIntInRange(const string& prompt, int min, int max) {
         if (value < min || value > max) {
             cout << "\nInvalid input. Please enter a number between "
                  << min << " and " << max << ".\n";
+            continue;
+        }
+        return value;
+    }
+}
+
+
+double readDouble(const string& prompt, const string& notANumber) {
+    double value;   // it can be used for integers too even if the type is double
+
+    while (true) {
+        cout << prompt;
+        cin >> value;
+
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << notANumber;
+            continue;
+        }
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+        // check positivity
+        if (value<0){
+            cout << "\nInvalid input. The number should be positive.";
+            continue;
+        }
+
+        return value;
+    }
+}
+
+int readInt(const string& prompt, const string& notANumber) {
+    double value;   // it can be used for integers too even if the type is double
+
+    while (true) {
+        cout << prompt;
+        cin >> value;
+
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << notANumber;
+            continue;
+        }
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+        // check positivity
+        if (value<0){
+            cout << "\nInvalid input. The number should be positive.";
             continue;
         }
 

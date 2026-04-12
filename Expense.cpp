@@ -14,7 +14,9 @@ Expense::Expense(int id, const string& name, Category category, double amount, c
     if (date.size() != 10 || date[4]!= '-' || date[7]!='-') {
         throw invalid_argument("Date must be in YYYY-MM-DD format.\n");
     }
-    if (date[5]>2 || date[5]==1 && date[6]>2 || date[8]>3 || date[8]==3 && date[9]>1 || date[1]>0 || date[0]>2 || date[0]<1 || date[2]>2 ||date[2]==2 && date[3]>6) {
+    int month = stoi(date.substr(5,2));
+    int day = stoi(date.substr(8,2));
+    if (month < 1 || month > 12 || day < 1 || day > 31) {
         throw invalid_argument("Date must be in YYYY-MM-DD format.\n");
     }
 
@@ -38,7 +40,7 @@ string categoryToString(Category category) {
     }
 }
 
-// The reason they are all chosen constants is getters should not modify values
+// The reason they are all chosen constants is getters not modifying values
 int Expense::getID() const {
     return id;
 }

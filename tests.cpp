@@ -142,7 +142,6 @@ void testInvalidDateThrows() {
     } catch (const invalid_argument&) {
         thrown = true;
     }
-
     assert(thrown);
 }
 

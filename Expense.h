@@ -5,6 +5,7 @@
 #include <chrono>
 using namespace std;
 
+// Expense categories
 enum class Category {
     Food =1,
     Transport,
@@ -14,8 +15,7 @@ enum class Category {
     Other,
 };
 
-string categoryToString(Category category);
-
+string categoryToString(Category category); // for printing\comparing purposes
 
 class Expense {
     int id;
@@ -24,7 +24,8 @@ class Expense {
     double amount;
 
 public:
-    Expense(int id, const string& name, Category category, double amount, const string& date); // we use '&' because that way it is less costly to copy strings
+    Expense(int id, const string& name, Category category, double amount, const string& date);
+    // we use '&' for strings because that way it is less costly to copy
     int getID() const;
     string getName() const;
     Category getCategory() const;

@@ -154,9 +154,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.tests.cpp" />
       <item itemvalue="CMake Application.Expense_Sys" />
       <item itemvalue="CMake Application.Expense_Tests" />
+      <item itemvalue="C/C++ File.tests.cpp" />
     </list>
     <recent_temporary>
       <list>

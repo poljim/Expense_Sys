@@ -4,7 +4,9 @@
 #include <vector>
 #include <string>
 using namespace std;
-int readIntInRange(const string& prompt, int min, int max);
+int readIntInRange(const string& prompt, int min, int max, const string& notANumber);
+double readDouble(const string& prompt, const string& notANumber);
+int readInt(const string& prompt, const string& notANumber);
 
 
 class ExpenseManager {
@@ -20,6 +22,7 @@ public:
     void sortByCategory();
     void sortByDate();
     void sortByName();
+    void sortById();
 
     void printExpenses();
 
