@@ -1,11 +1,13 @@
 
 April 11th:
+g++ main.cpp Expense.cpp ExpenseManager.cpp -o Expense_Sys.exe -static -static-libgcc -static-libstdc++
+
 - it turns out that for unit tests we need some helper functions to be able to iterate over the objects
 
 
 April 10th:
 - added NAME attribute to the Expense object (should we now remove date?)
-- added printexpense function as extra(can be used after filtering too)
+- added 'print expense' function as an extra(can be used after filtering too)
 
 April 9th:
 - changed type of 'date' to string

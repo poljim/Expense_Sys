@@ -13,16 +13,23 @@ int main() {
 
     // Print the main menu
     while (condition){
-        cout <<"\n\n======== Welcome to Expense Manager! ========\n"
-             << "[1] View expenses\n"
-             << "[2] Add expense\n"
-             << "[3] Remove expense\n"
-             << "[4] Filter expenses\n"
-             << "[5] Calculate total expense\n"
-             << "[6] Sort expenses\n"
-             << "[0] Exit.\n";
 
-        int option = readIntInRange("   > Select an option: ", 0, 6); // Get the user input safely
+        // Print the menu and then get the user input safely with custom function readIntIn() function
+        // Below it takes 2 parameters:
+        //      1. message to be printed,
+        //      2. error message if user input has some problem like being a string
+        int option = readInt(
+        "\n\n======== Welcome to Expense Manager! ========\n"
+            "[1] View expenses\n"
+            "[2] Add expense\n"
+            "[3] Remove expense\n"
+            "[4] Filter expenses\n"
+            "[5] Calculate total expense\n"
+            "[6] Sort expenses\n"
+            "[0] Exit.\n"
+            "   > Select an option: ",
+            "Invalid input. Please enter an integer.\n");
+
         switch (option) {
             // View Expenses
             case 1: {
@@ -33,30 +40,30 @@ int main() {
             case 2: {
                 string name, date;
                 Category category;
-                double amount;
 
-                int size; // Vector size
-                cout<<"Enter the number of expenses you want to add: ";
-                cin >> size;
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                // Here, vector size is decided by user input (we are storing expense objects in a vector)
+                int size = readInt("Enter the number of expenses you want to add: ", "Invalid input. Please enter an integer.\n");
 
                 for (int i=0; i<size; i++) {
                     cout << "Enter a name for expense "<<i+1 << ": ";
                     getline(cin, name);
                     // cin>>name; <<-- We removed this because when user entered a name with spaces, cin was ignoring the later part
 
-                    cout << "1. Food\n"
-                         << "2. Transport\n"
-                         << "3. Education\n"
-                         << "4. Health\n"
-                         << "5. Hobby\n"
-                         << "6. Other\n";
-                    int categoryChoice = readIntInRange("> Choose category: ", 1, 6);
+                    // Print the menu and then get the user input, with validation that the input is an integer
+                    int categoryChoice = readInt(
+                    "1. Food\n"
+                    "2. Transport\n"
+                    "3. Education\n"
+                    "4. Health\n"
+                    "5. Hobby\n"
+                    "6. Other\n"
+                    "> Choose category: ",
+                    "Invalid input. Please enter an integer.\n"
+                    );
                     Category category = static_cast<Category>(categoryChoice);
 
-                    cout << "Enter amount (double): ";
-                    cin>>amount;
-                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    // Take amount input
+                    double amount = readDouble("Enter amount (double): ", "Invalid input. Please enter an integer.\n");
 
                     cout << "Enter date (YYYY-MM-DD): ";
                     getline(cin, date);
@@ -75,28 +82,12 @@ int main() {
 
             // Remove expense
             case 3: {
+                // return to the main menu if the vector is empty.
                 if (expenseManager.isEmpty()) {
                     cout << "No expenses found.\n";
                     break;
                 }
-
-                int idToRemove;
-                cout << "Enter the ID of the expense you want to remove: ";
-                cin >> idToRemove;
-
-                if (cin.fail()) {
-                    cin.clear();
-                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                    cout<<"Invalid input. Please enter an integer ID.\n";
-                    break;
-                }
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-
-                if (idToRemove<=0) {
-                    cout<<"ID must be a positive integer.\n";
-                    break;
-                }
-
+                int idToRemove = readInt("Enter ID to remove: ", "Invalid input. Please enter a number.");
                 expenseManager.removeExpense(idToRemove);
             }break;
 
@@ -111,21 +102,26 @@ int main() {
 
             // Sort Expenses
             case 6: {
-                // return to the main menu if the vector is empty.
+                // Check if there is any expense object created
                 if (expenseManager.isEmpty()) {
                     cout << "No expenses found.\n";
                     break;
                 }
+                // How does the user want to sort the list? by name, amount, category, ID or date?
+                // ReadIntIn() function below it takes 2 parameters:
+                //      1. message to be printed,
+                //      2. error message if user input has some problem like being a string
+                int sortOption = readInt(
+                "\n1. Sort by name \n"
+                "2. By category\n"
+                "3. By amount\n"
+                "4. By date\n"
+                "5. By ID\n"
+                "6. Return back to main menu.\n"
+                "Choose how you want to sort expenses: ",
+                "Invalid input. Please enter an integer ID.\n");
 
-                // How does the user want to sort the list? by name, amount, category or date?
-                cout<<   "\n1. Sort by name \n"
-                     <<   "2. By category\n"
-                     <<   "3. By amount\n"
-                     <<   "4. By date\n"
-                     <<   "5. Return back to main menu.\n";
-
-                int sortOption = readIntInRange("Choose how you want to sort expenses: ", 1, 5);
-                switch (sortOption) {
+                switch (sortOption){
                     case 1: {
                         expenseManager.sortByName();
                         cout<<"Sorted by Name.\n";
@@ -142,22 +138,26 @@ int main() {
                         expenseManager.sortByDate();
                         cout<<"Sorted by Date.\n";
                     }break;
-                    case 5:
+                    case 5:{
+                        expenseManager.sortById();
+                        cout<<"Sorted by ID.\n";
+                    }break;
+                    case 6:
                         break;
                     default: {
+                        // print the message below and return main menu
                         cout<<"To sort, choose a number between 1-4.\n";
                     }break;
                 }
                 expenseManager.printExpenses();
             }break;
 
-            // Quit Program
+            // Quit Program (main menu option 0)
             case 0: {
                 condition = false;
                 break;
             }
 
-            // Selection is not between 0-6
             default:
                 cout << "Please enter a number between 0-6\n";
 

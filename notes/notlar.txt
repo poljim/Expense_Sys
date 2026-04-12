@@ -5,19 +5,20 @@ calculate total ve filter birlikte kullanılabilir mi? (toplam harcamalardan sad
 
 
 Yapılacaklar:
-    eror gelebilecek yerler için güncellemeler yapmamız lazım (örn sayı yerine yazı girerse)
-    add expenste kategoriyi seçtirmemiz mi lazım filterin çalışması için?
+1-  unit testlerin elle tekrardan yazılması. mantığının nasıl olduğunu da tam anlamaya çalışalım
 
-    bunun için add expense kısmında kategori stringinin düzenlenerek kaydedilmesi gerek. büyük küçük temel zaten
-        ama ona ek olarak yazılan şeylere yakın olabilecek kelimeler bulunabilirdi. örneğin elma, armut yazarsa bunları otomatik olarak
-        yiyeceğe yerleştiren bir sistem olabilirdi.
-    veya direkt kayıt kısmında da bir kategori seçimi yapılabilir ama bu BİR TANE DAHA MENÜ gerektirir
-        programdan çıkış kolay olmadığından bu seçenek biraz kötü gibi.
+2-  eror gelebilecek yerler için güncellemeler yapmamız lazım (örn sayı yerine yazı girerse)
+add expenste kategoriyi seçtirmemiz mi lazım filterin çalışması için?
+
+3-  bunun için add expense kısmında kategori stringinin düzenlenerek kaydedilmesi gerek. büyük küçük temel zaten
+ama ona ek olarak yazılan şeylere yakın olabilecek kelimeler bulunabilirdi. örneğin elma, armut yazarsa bunları otomatik olarak
+    yiyeceğe yerleştiren bir sistem olabilirdi.
+veya direkt kayıt kısmında da bir kategori seçimi yapılabilir ama bu BİR TANE DAHA MENÜ gerektirir
+programdan çıkış kolay olmadığından bu seçenek biraz kötü gibi.
 
 
 Sorular
     emplace_back() ne nerde kullanılıyor niye  pushbackte tekrardan Expense() yapılması gerekli?
-
 
 
 ek fonksiyon olarak:
@@ -25,3 +26,12 @@ ek fonksiyon olarak:
     arrow key menu
     tek seferde 1den fazla harcamanın silinebilmesi (ama addExpenstekinin aksine for looptan daha düzgün bir şeyle)
 
+problemler:
+1.	when asked how many objects to Add doesnt give proper feedback when the user enters a characer/string 
+cevap veriyor fakat menuyu yazdiktan sonra cikiyor bu. neden?
+2.	tablo sutunlari yamuk oluyor. bunu oto hizalamanin yolu var midir? ozellikle kategoriden sonra amount kayiyor
+3. SORT BY ID KOYMAMISIZ
+4.	amount'a string girince de cildiriyor (kategori secimindeki iyi calisiyor) (birinde hata cikinca diger hepsini sildi)
+5.	read INT methoduna bir girdi daha ekledik ama yeni fonksiyon olusturmak daha mi mantikli olurdu ki?
+
+6. menuleri switch ile yaptigimizdan ve switchte de default kullanilabildiginden range'e gerek yok muydu?
