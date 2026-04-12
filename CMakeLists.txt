@@ -8,6 +8,7 @@ add_executable(Expense_Sys
         Expense.cpp
         ExpenseManager.cpp
         ExpenseManager.h
+        Expense.h
 )
 
 add_executable(Expense_Tests

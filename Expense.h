@@ -18,6 +18,8 @@ enum class Category {
 string categoryToString(Category category); // for printing\comparing purposes
 
 class Expense {
+    // in classes, members are private as default.
+    // with using it we encapsulated these variables so that they can only be accessed through getters and setters
     int id;
     Category category;
     string name, date;
