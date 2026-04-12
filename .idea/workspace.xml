@@ -30,11 +30,42 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cdc50c5-e6ae-4a90-9fc7-e613292790ac" name="Changes" comment="Fix bugs connected to Adding and Sorting expenses.">
+    <list default="true" id="6cdc50c5-e6ae-4a90-9fc7-e613292790ac" name="Changes" comment="move README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expense.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Expense.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expense.h" beforeDir="false" afterPath="$PROJECT_DIR$/Expense.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExpenseManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpenseManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/cache-v2-35563d96b15575a49e6e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/cmakeFiles-v1-ccf6949129fbaa7ed9fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/codemodel-v2-94e20376a5ed728e14e7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/directory-.-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/index-2026-04-11T14-25-18-0770.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/target-Expense_Sys-b0eb69a244c696f7dac0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/target-Expense_Tests-f60933c6daaf729aaa34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/toolchains-v1-45fad6892e11898e9dc7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Expense_Sys.dir/Expense.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Expense_Sys.dir/ExpenseManager.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Expense_Sys.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/InstallScripts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/rules.ninja" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +79,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="61a2d23cb1bf3107b26b60eb9f5ffd87d9d3c2de" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -188,6 +219,7 @@
       <workItem from="1775916485458" duration="1139000" />
       <workItem from="1775917653387" duration="26000" />
       <workItem from="1775921312578" duration="9000" />
+      <workItem from="1776000524823" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="deneme :)">
       <option name="closed" value="true" />
@@ -285,7 +317,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775917669005</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fix bugs connected to Adding and Sorting expenses.">
+      <option name="closed" value="true" />
+      <created>1775988968144</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1775988968144</updated>
+    </task>
+    <task id="LOCAL-00014" summary="move README.md">
+      <option name="closed" value="true" />
+      <created>1775989110404</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1775989110404</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +373,7 @@
     <MESSAGE value="deleted file project ceng" />
     <MESSAGE value="Base of the Expense Class" />
     <MESSAGE value="Fix bugs connected to Adding and Sorting expenses." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs connected to Adding and Sorting expenses." />
+    <MESSAGE value="move README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="move README.md" />
   </component>
 </project>

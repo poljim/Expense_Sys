@@ -3,14 +3,17 @@
 #include "Expense.h"
 #include <vector>
 #include <string>
+
 using namespace std;
-int readIntInRange(const string& prompt, int min, int max, const string& notANumber);
+
+// int readIntInRange(const string& prompt, int min, int max, const string& notANumber);
 double readDouble(const string& prompt, const string& notANumber);
 int readInt(const string& prompt, const string& notANumber);
 
 
 class ExpenseManager {
     // used vectors since time complexity for accessing elements by index is 1, whereas for lists it's n.
+    // in classes, members are private as default
     vector<Expense> ExpenseVector;
     int nextId = 1;
 

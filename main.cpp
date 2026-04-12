@@ -2,8 +2,10 @@
 #include <chrono>
 #include "Expense.h"
 #include "ExpenseManager.h"
-#include <limits>
 #include <string>
+
+#include <stdexcept>
+#include <sstream>
 
 using namespace std;
 
@@ -82,7 +84,7 @@ int main() {
 
             // Remove expense
             case 3: {
-                // return to the main menu if the vector is empty.
+                // Check if there is any expense object created
                 if (expenseManager.isEmpty()) {
                     cout << "No expenses found.\n";
                     break;
@@ -107,8 +109,9 @@ int main() {
                     cout << "No expenses found.\n";
                     break;
                 }
+
                 // How does the user want to sort the list? by name, amount, category, ID or date?
-                // ReadIntIn() function below it takes 2 parameters:
+                // ReadIntIn() function below takes 2 parameters:
                 //      1. message to be printed,
                 //      2. error message if user input has some problem like being a string
                 int sortOption = readInt(

@@ -5,6 +5,7 @@ using namespace std;
 
 Expense::Expense(int id, const string& name, Category category, double amount, const string& date) {
     // For strings, we used const and & because that way we avoid unnecessary copying.
+
     if (name.empty()) {
         throw invalid_argument("Name cannot be empty.\n");
     }
@@ -16,6 +17,9 @@ Expense::Expense(int id, const string& name, Category category, double amount, c
     }
     int month = stoi(date.substr(5,2));
     int day = stoi(date.substr(8,2));
+    // if (date[0]>2 || date[0]<1 || date[1]>0 || month < 1 || month > 12 || day < 1 || day > 31) {
+    //     throw invalid_argument("Date must be in YYYY-MM-DD format.\n");
+    // } //this is not valid because it compares string with numbers. (since we accept the date from the user input as a string)
     if (month < 1 || month > 12 || day < 1 || day > 31) {
         throw invalid_argument("Date must be in YYYY-MM-DD format.\n");
     }

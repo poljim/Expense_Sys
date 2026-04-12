@@ -84,11 +84,8 @@ void ExpenseManager::sortById(){
         });
 }
 
-
-
-
 // This function is useful in the main where we have to ask for user input first, to be able to run the target function.
-// (Normally this control is in the target function but asking for input would add unnecessary steps for the user. That's why.)
+// (Normally this control is in the target function but asking for input would add unnecessary steps for the user.)
 bool ExpenseManager::isEmpty() const{
     return ExpenseVector.empty();
 }
@@ -102,40 +99,9 @@ const Expense &ExpenseManager::getExpenseAt(int index) const {
 }
 
 
-// There are many user inputs which requires error prevention in the main function.
-// Instead of writing the code below again and again, we created a function to be reused.
-// This change helps to avoid redundancy and also makes the project easier to build upon.
-// For example, if another menu was to be added later, this function could be used instead of recreating or copying the already existing logic.
-int readIntInRange(const string& prompt, int min, int max, const string& notANumber) {
-    int value;
-
-    while (true) {
-        cout << prompt;
-        cin >> value;
-
-        if (cin.fail()) {
-            cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            cout << notANumber; // Here we used a variable to print out instead of a certain string, for future development
-            // This way the program outputs can be configured and be less repetitive for the user
-            // Though it is not the best way to implement this logic
-            continue;
-        }
-
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
-
-        if (value < min || value > max) {
-            cout << "\nInvalid input. Please enter a number between "
-                 << min << " and " << max << ".\n";
-            continue;
-        }
-        return value;
-    }
-}
-
-
+// these two functions are for a tidier main.cpp
 double readDouble(const string& prompt, const string& notANumber) {
-    double value;   // it can be used for integers too even if the type is double
+    double value;
 
     while (true) {
         cout << prompt;
@@ -160,7 +126,7 @@ double readDouble(const string& prompt, const string& notANumber) {
 }
 
 int readInt(const string& prompt, const string& notANumber) {
-    double value;   // it can be used for integers too even if the type is double
+    int value;
 
     while (true) {
         cout << prompt;
@@ -185,3 +151,34 @@ int readInt(const string& prompt, const string& notANumber) {
 }
 
 
+
+// // There are many user inputs which requires error prevention in the main function.
+// // Instead of writing the code below again and again, we created a function to be reused.
+// // This change helps to avoid redundancy and also makes the project easier to build upon.
+// // For example, if another menu was to be added later, this function could be used instead of recreating or copying the already existing logic.
+// int readIntInRange(const string& prompt, int min, int max, const string& notANumber) {
+//     int value;
+//
+//     while (true) {
+//         cout << prompt;
+//         cin >> value;
+//
+//         if (cin.fail()) {
+//             cin.clear();
+//             cin.ignore(numeric_limits<streamsize>::max(), '\n');
+//             cout << notANumber; // Here we used a variable to print out instead of a certain string, for future development
+//             // This way the program outputs can be configured and be less repetitive for the user
+//             // Though it is not the best way to implement this logic
+//             continue;
+//         }
+//
+//         cin.ignore(numeric_limits<streamsize>::max(), '\n');
+//
+//         if (value < min || value > max) {
+//             cout << "\nInvalid input. Please enter a number between "
+//                  << min << " and " << max << ".\n";
+//             continue;
+//         }
+//         return value;
+//     }
+// }
