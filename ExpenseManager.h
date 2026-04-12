@@ -31,6 +31,7 @@ public:
 
     bool isEmpty() const;
 
+    double calculateTotal() const;
 
     // below helper functions for testing
     int getExpenseCount() const;
