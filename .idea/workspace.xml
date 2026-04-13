@@ -4,7 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
-    <option name="/Default/Environment/StickyLines/Enabled/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
@@ -31,41 +30,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cdc50c5-e6ae-4a90-9fc7-e613292790ac" name="Changes" comment="move README.md">
+      <change afterPath="$PROJECT_DIR$/notes/a.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/a.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expense.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Expense.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expense.h" beforeDir="false" afterPath="$PROJECT_DIR$/Expense.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExpenseManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManager.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExpenseManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManager.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/cache-v2-35563d96b15575a49e6e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/cmakeFiles-v1-ccf6949129fbaa7ed9fa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/codemodel-v2-94e20376a5ed728e14e7.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/directory-.-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/index-2026-04-11T14-25-18-0770.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/target-Expense_Sys-b0eb69a244c696f7dac0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/target-Expense_Tests-f60933c6daaf729aaa34.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/toolchains-v1-45fad6892e11898e9dc7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdC/a.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdCXX/a.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Expense_Sys.dir/Expense.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Expense_Sys.dir/ExpenseManager.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Expense_Sys.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/InstallScripts.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/InstallScripts.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/InstallScripts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/compile_commands.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +72,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="su" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,36 +119,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.tests.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.Expense_Sys.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
-    &quot;ToolWindow.CMake.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;su2&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;consents&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.tests.cpp.executor": "Run",
+    "CMake Application.Expense_Sys.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "ToolWindow.CMake.ShowToolbar": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/bruno/CLionProjects/Expense_Sys/notes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "consents",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="ss" />
@@ -163,6 +157,9 @@
     </force-push-targets>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\chö\CLionProjects\Expense_Sys" />
     </key>
@@ -178,6 +175,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tests.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Expense_Sys" TARGET_NAME="tests.cpp" CONFIG_NAME="tests.cpp">
       <option name="sourceFile" value="tests.cpp" />
       <method v="2">
@@ -185,9 +187,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ File.tests.cpp" />
       <item itemvalue="CMake Application.Expense_Sys" />
       <item itemvalue="CMake Application.Expense_Tests" />
-      <item itemvalue="C/C++ File.tests.cpp" />
     </list>
     <recent_temporary>
       <list>

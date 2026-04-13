@@ -8,6 +8,29 @@
 
 using namespace std;
 
+
+
+// Calculate total expense
+void ExpenseManager::calculateTotal() { // we dont need any return because we re not doing any operations outside the function
+    double total = 0.0;
+
+    for (const auto & i : ExpenseVector) {
+        total += i.getAmount();
+    }
+    cout << "\nTotal expense is: " << total << "\n";
+}
+
+// Filter expenses
+void ExpenseManager::filterExpenses(Category targetCategory) {
+    vector<Expense> filteredVector;
+    for (const auto & i : ExpenseVector) {
+        if (i.getCategory()==targetCategory) {
+            filteredVector.push_back(i);
+        }
+    }
+
+}
+
 // Remove Expense
 void ExpenseManager::removeExpense(int targetId) {
     // Vektörün içinde dolaşmak için bir iterator (it) kullanıyoruz
@@ -152,33 +175,33 @@ int readInt(const string& prompt, const string& notANumber) {
 
 
 
-// // There are many user inputs which requires error prevention in the main function.
-// // Instead of writing the code below again and again, we created a function to be reused.
-// // This change helps to avoid redundancy and also makes the project easier to build upon.
-// // For example, if another menu was to be added later, this function could be used instead of recreating or copying the already existing logic.
-// int readIntInRange(const string& prompt, int min, int max, const string& notANumber) {
-//     int value;
-//
-//     while (true) {
-//         cout << prompt;
-//         cin >> value;
-//
-//         if (cin.fail()) {
-//             cin.clear();
-//             cin.ignore(numeric_limits<streamsize>::max(), '\n');
-//             cout << notANumber; // Here we used a variable to print out instead of a certain string, for future development
-//             // This way the program outputs can be configured and be less repetitive for the user
-//             // Though it is not the best way to implement this logic
-//             continue;
-//         }
-//
-//         cin.ignore(numeric_limits<streamsize>::max(), '\n');
-//
-//         if (value < min || value > max) {
-//             cout << "\nInvalid input. Please enter a number between "
-//                  << min << " and " << max << ".\n";
-//             continue;
-//         }
-//         return value;
-//     }
-// }
+// There are many user inputs which requires error prevention in the main function.
+// Instead of writing the code below again and again, we created a function to be reused.
+// This change helps to avoid redundancy and also makes the project easier to build upon.
+// For example, if another menu was to be added later, this function could be used instead of recreating or copying the already existing logic.
+int readIntInRange(const string& prompt, int min, int max, const string& notANumber) {
+    int value;
+
+    while (true) {
+        cout << prompt;
+        cin >> value;
+
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << notANumber; // Here we used a variable to print out instead of a certain string, for future development
+            // This way the program outputs can be configured and be less repetitive for the user
+            // Though it is not the best way to implement this logic
+            continue;
+        }
+
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+        if (value < min || value > max) {
+            cout << "\nInvalid input. Please enter a number between "
+                 << min << " and " << max << ".\n";
+            continue;
+        }
+        return value;
+    }
+}

@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// int readIntInRange(const string& prompt, int min, int max, const string& notANumber);
+int readIntInRange(const string& prompt, int min, int max, const string& notANumber);
 double readDouble(const string& prompt, const string& notANumber);
 int readInt(const string& prompt, const string& notANumber);
 
@@ -26,6 +26,8 @@ public:
     void sortByDate();
     void sortByName();
     void sortById();
+    void calculateTotal();
+    void filterExpenses(Category targetCategory);
 
     void printExpenses();
 
