@@ -105,6 +105,33 @@ void testSortByID() {
 }
 
 
+void testCalcTot() {
+    ExpenseManager manager;
+    manager.addExpense("Taxi", Category::Transport, 100.0, "2011-04-11");
+    manager.addExpense("Taxi", Category::Transport, 100.0, "2010-04-10");
+    manager.addExpense("Taxi", Category::Transport, 100.0, "2009-04-09");
+
+    assert(manager.calculateTotal()==300);
+}
+
+void testFilterbyCat() {
+    ExpenseManager manager;
+    manager.addExpense("A", Category::Transport, 100.0, "2011-11-11");
+    manager.addExpense("B", Category::Transport, 100.0, "2011-11-11");
+    manager.addExpense("C", Category::Transport, 100.0, "2011-11-11");
+
+    manager.addExpense("D", Category::Food, 100.0, "2011-11-11");
+    manager.addExpense("E", Category::Education, 100.0, "2011-11-11");
+
+    vector<Expense> filtered = manager.filterExpenses(Category::Transport);
+    assert(filtered.size() == 3);
+    assert(filtered[0].getName() == "A");
+    assert(filtered[1].getName() == "B");
+    assert(filtered[2].getName() == "C");
+}
+
+
+
 //=========================     edge case tests     =========================
 void testEmptyManager() {
     ExpenseManager manager;
@@ -192,6 +219,9 @@ int main() {
     testSortByCategory();
     testSortByDate();
     testSortByID();
+
+    testCalcTot();
+    testFilterbyCat();
 
     testEmptyManager();
     testDuplicateRecords();

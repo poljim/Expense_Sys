@@ -30,14 +30,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cdc50c5-e6ae-4a90-9fc7-e613292790ac" name="Changes" comment="move README.md">
-      <change afterPath="$PROJECT_DIR$/notes/a.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/a.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExpenseManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManager.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExpenseManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/cache-v2-35563d96b15575a49e6e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/directory-.-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/.cmake/api/v1/reply/toolchains-v1-45fad6892e11898e9dc7.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeCache.txt" afterDir="false" />
@@ -45,20 +40,19 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeRCCompiler.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/4.1.2/CompilerIdCXX/a.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/InstallScripts.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/InstallScripts.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-Default-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/compile_commands.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +117,7 @@
   "keyToString": {
     "C/C++ File.tests.cpp.executor": "Run",
     "CMake Application.Expense_Sys.executor": "Run",
+    "CMake Application.Expense_Tests.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
@@ -164,18 +159,18 @@
       <recent name="C:\Users\chö\CLionProjects\Expense_Sys" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.tests.cpp">
+  <component name="RunManager" selected="CMake Application.Expense_Tests">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Expense_Sys" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Expense_Sys" TARGET_NAME="Expense_Sys" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Expense_Sys" RUN_TARGET_NAME="Expense_Sys">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Expense_Tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Expense_Sys" TARGET_NAME="Expense_Tests" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Expense_Sys" RUN_TARGET_NAME="Expense_Tests">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -222,6 +217,7 @@
       <workItem from="1775917653387" duration="26000" />
       <workItem from="1775921312578" duration="9000" />
       <workItem from="1776000524823" duration="7000" />
+      <workItem from="1776802455988" duration="1634000" />
     </task>
     <task id="LOCAL-00001" summary="deneme :)">
       <option name="closed" value="true" />

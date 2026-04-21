@@ -1,4 +1,4 @@
-/home/bruno/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/Expense_Sys.dir
-/home/bruno/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/Expense_Tests.dir
-/home/bruno/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/edit_cache.dir
-/home/bruno/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/rebuild_cache.dir
+C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/Expense_Sys.dir
+C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/Expense_Tests.dir
+C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/edit_cache.dir
+C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/rebuild_cache.dir

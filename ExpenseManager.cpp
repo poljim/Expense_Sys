@@ -11,24 +11,26 @@ using namespace std;
 
 
 // Calculate total expense
-void ExpenseManager::calculateTotal() { // we dont need any return because we re not doing any operations outside the function
+double ExpenseManager::calculateTotal() {
     double total = 0.0;
 
     for (const auto & i : ExpenseVector) {
         total += i.getAmount();
     }
     cout << "\nTotal expense is: " << total << "\n";
+
+    return total;
 }
 
 // Filter expenses
-void ExpenseManager::filterExpenses(Category targetCategory) {
+vector<Expense> ExpenseManager::filterExpenses(Category targetCategory) {
     vector<Expense> filteredVector;
     for (const auto & i : ExpenseVector) {
         if (i.getCategory()==targetCategory) {
             filteredVector.push_back(i);
         }
     }
-
+    return filteredVector;
 }
 
 // Remove Expense

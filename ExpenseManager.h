@@ -26,8 +26,9 @@ public:
     void sortByDate();
     void sortByName();
     void sortById();
-    void calculateTotal();
-    void filterExpenses(Category targetCategory);
+
+    double calculateTotal();
+    vector<Expense> filterExpenses(Category targetCategory);
 
     void printExpenses();
 

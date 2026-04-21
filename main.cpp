@@ -92,7 +92,9 @@ int main() {
                 int idToRemove = readInt("Enter ID to remove: ", "Invalid input. Please enter a number.");
                 expenseManager.removeExpense(idToRemove);
             }break;
-                // Filter Expenses by Category
+
+
+            // Filter Expenses by Category
             case 4: {
                 cout << "1. Food\n"
                          << "2. Transport\n"
@@ -102,12 +104,20 @@ int main() {
                          << "6. Other\n";
                 int categoryChoice = readIntInRange("> Choose category to filter with: ", 1, 6,"error. enter an integer.");
                 Category category = static_cast<Category>(categoryChoice);
-                expenseManager.filterExpenses(category);
+                vector<Expense> filteredVector = expenseManager.filterExpenses(category);
+
+                for (const auto &e : filteredVector) {
+                    cout << e.getName() << " | "
+                         << e.getAmount() << " | "
+                         << e.getDate() << "\n";
+                }
             }
 
-                // Calculate Total
+            // Calculate Total
             case 5: {
-                expenseManager.calculateTotal();
+                double total;
+                total = expenseManager.calculateTotal();
+                cout<<"Total expenses: "<<total<<endl;
 
             }break;
 

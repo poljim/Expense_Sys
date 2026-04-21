@@ -1,2 +1,15 @@
 # ninja log v6
 1430	1544	7976853166674116	Expense_Sys.exe	cdfa11b09f076cd9
+18	3432	7985061876665739	CMakeFiles/Expense_Tests.dir/Expense.cpp.obj	1b1c8dc0253ea744
+8	3462	7985061876581246	CMakeFiles/Expense_Tests.dir/tests.cpp.obj	20ab449fafadb109
+27	3926	7985061876762033	CMakeFiles/Expense_Tests.dir/ExpenseManager.cpp.obj	85c003cf0c5f8879
+3926	4220	7985061915754221	Expense_Tests.exe	c5982265362661f3
+26	2415	7985062349296572	CMakeFiles/Expense_Tests.dir/tests.cpp.obj	20ab449fafadb109
+2416	2640	7985062373192997	Expense_Tests.exe	c5982265362661f3
+38	2484	7985066184893853	CMakeFiles/Expense_Tests.dir/ExpenseManager.cpp.obj	85c003cf0c5f8879
+14	1234	7985070876282309	CMakeFiles/Expense_Tests.dir/tests.cpp.obj	20ab449fafadb109
+1234	1356	7985070888482358	Expense_Tests.exe	c5982265362661f3
+13	1246	7985072568402022	CMakeFiles/Expense_Tests.dir/tests.cpp.obj	20ab449fafadb109
+1247	1363	7985072580734550	Expense_Tests.exe	c5982265362661f3
+14	1196	7985073032340803	CMakeFiles/Expense_Tests.dir/tests.cpp.obj	20ab449fafadb109
+1197	1315	7985073044173883	Expense_Tests.exe	c5982265362661f3
