@@ -117,11 +117,10 @@ void testCalcTot() {
 void testFilterbyCat() {
     ExpenseManager manager;
     manager.addExpense("A", Category::Transport, 100.0, "2011-11-11");
-    manager.addExpense("B", Category::Transport, 100.0, "2011-11-11");
-    manager.addExpense("C", Category::Transport, 100.0, "2011-11-11");
-
     manager.addExpense("D", Category::Food, 100.0, "2011-11-11");
     manager.addExpense("E", Category::Education, 100.0, "2011-11-11");
+    manager.addExpense("B", Category::Transport, 100.0, "2011-11-11");
+    manager.addExpense("C", Category::Transport, 100.0, "2011-11-11");
 
     vector<Expense> filtered = manager.filterExpenses(Category::Transport);
     assert(filtered.size() == 3);
