@@ -207,3 +207,17 @@ int readIntInRange(const string& prompt, int min, int max, const string& notANum
         return value;
     }
 }
+
+// old calc total function incase we want to have a look at it again
+//double ExpenseManager::calculateTotal() {
+//    double total = 0.0;
+//
+//    for (int i = 0; i < currentSize; i++) {
+//        total += expenses[i].getAmount(); 
+//    }
+//
+//    return total;
+//}
+
+
+
