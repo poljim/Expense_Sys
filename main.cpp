@@ -115,10 +115,12 @@ int main() {
 
             // Calculate Total
             case 5: {
+                if (expenseManager.isEmpty()) {
+                    cout << "No expenses found.\n";
+                    break;
+                }
                 double total;
                 total = expenseManager.calculateTotal();
-                cout<<"Total expenses: "<<total<<endl;
-
             }break;
 
             // Sort Expenses
