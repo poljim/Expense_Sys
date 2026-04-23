@@ -7,7 +7,10 @@ A simple console-based expense tracker program written in C++. It allows users t
 - Add new expenses
 - View saved expenses
 - Remove an expense by its ID
+- Filter expenses by category
+- Calculate total expense
 - Sort expenses by:
+  - ID
   - name
   - category
   - amount
