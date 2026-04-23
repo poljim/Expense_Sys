@@ -3,6 +3,7 @@
   * 240 201 427 - Yusuf Alper Açıkbaş (calculate total)
   * 240 201 418 - Alperen Baysal (filter expenses)
   * 250 201 019 - Süeda Nalan Tahtacı (add and sort expenses)
+==============================================================================
 
 # Expense Management System
 
