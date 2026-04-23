@@ -1,9 +1,9 @@
-**The Project is Built by:**
-  * 240 201 426 – Ömer Balkanoğlu (remove expense)
-  * 240 201 427 – Yusuf Alper Açıkbaş (calculate total)
-  * 240 201 418 – Alperen Baysal (filter expenses)
-  * 250 201 019 – Süeda Nalan Tahtacı (add and sort expenses)
-==============================================================
+| Number       | Name                  | Created Function      |
+|--------------|-----------------------|-----------------------|
+| 240 201 426  | Ömer Balkanoğlu       | Remove Expense        |
+| 240 201 427  | Yusuf Alper Açıkbaş   | Calculate Total       |
+| 240 201 418  | Alperen Baysal        | Filter Expenses       |
+| 250 201 019  | Süeda Nalan Tahtacı   | Add and Sort Expenses |
 
 # Expense Management System
 
