@@ -51,8 +51,8 @@ int main() {
                     getline(cin, name);
                     // cin>>name; <<-- We removed this because when user entered a name with spaces, cin was ignoring the later part
 
-                    // Print the menu and then get the user input, with validation that the input is an integer
-                    int categoryChoice = readInt(
+                    // Print the menu and then get the user input, with validation that the input is an integer in range 1-6
+                    int categoryChoice = readIntInRange(
                     "1. Food\n"
                     "2. Transport\n"
                     "3. Education\n"
@@ -60,6 +60,8 @@ int main() {
                     "5. Hobby\n"
                     "6. Other\n"
                     "> Choose category: ",
+                    1,
+                    6,
                     "Invalid input. Please enter an integer.\n"
                     );
                     Category category = static_cast<Category>(categoryChoice);
@@ -111,7 +113,7 @@ int main() {
                          << e.getAmount() << " | "
                          << e.getDate() << "\n";
                 }
-            }
+            } break;
 
             // Calculate Total
             case 5: {
