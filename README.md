@@ -1,6 +1,12 @@
 # Expense Management System
 
 A simple console-based expense tracker program written in C++. It allows users to add, remove, filter, sort, view expenses and calculate the total expense.
+Prepared by:
+  - 240 201 426 Ömer Balkanoğlu
+  - 240 201 427 Yusuf Alper Açıkbaş
+  - 240 201 418 Alperen Baysal 
+  - 250 201 019 Süeda Nalan Tahtacı 
+
 
 ## Features
 
