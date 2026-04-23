@@ -16,7 +16,7 @@ int main() {
     // Print the main menu
     while (condition){
 
-        // Print the menu and then get the user input safely with custom function readIntIn() function
+        // Print the menu and then get the user input safely with custom function readInt() function
         // Below it takes 2 parameters:
         //      1. message to be printed,
         //      2. error message if user input has some problem like being a string
@@ -134,7 +134,7 @@ int main() {
                 }
 
                 // How does the user want to sort the list? by name, amount, category, ID or date?
-                // ReadIntIn() function below takes 2 parameters:
+                // ReadInt() function below takes 2 parameters:
                 //      1. message to be printed,
                 //      2. error message if user input has some problem like being a string
                 int sortOption = readInt(
