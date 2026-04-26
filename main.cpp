@@ -6,6 +6,8 @@
 
 #include <stdexcept>
 #include <sstream>
+#include <iomanip>
+
 
 using namespace std;
 
@@ -44,6 +46,7 @@ int main() {
                 Category category;
 
                 // Here, vector size is decided by user input (we are storing expense objects in a vector)
+                // first parameter is the prompt message, second is the error message (if any error occurs)
                 int size = readInt("Enter the number of expenses you want to add: ", "Invalid input. Please enter an integer.\n");
 
                 for (int i=0; i<size; i++) {
@@ -98,21 +101,41 @@ int main() {
 
             // Filter Expenses by Category
             case 4: {
+                if (expenseManager.isEmpty()) {
+                    cout << "No expenses found.\n";
+                    break;
+                }
                 cout << "1. Food\n"
                          << "2. Transport\n"
                          << "3. Education\n"
                          << "4. Health\n"
                          << "5. Hobby\n"
                          << "6. Other\n";
+
                 int categoryChoice = readIntInRange("> Choose category to filter with: ", 1, 6,"error. enter an integer.");
                 Category category = static_cast<Category>(categoryChoice);
                 vector<Expense> filteredVector = expenseManager.filterExpenses(category);
 
-                for (const auto &e : filteredVector) {
-                    cout << e.getName() << " | "
-                         << e.getAmount() << " | "
-                         << e.getDate() << "\n";
-                }
+
+                // print the filtered vector
+                    cout << left
+                         << setw(6)  << "ID"
+                         << setw(20) << "Name"
+                         << setw(15) << "Category"
+                         << setw(12) << "Amount"
+                         << setw(15) << "Date" << '\n';
+
+                    cout << string(68, '-') << '\n';
+
+                    for (const auto& expense : filteredVector) {
+                        cout << left
+                             << setw(6)  << expense.getID()
+                             << setw(20) << expense.getName()
+                             << setw(15) << categoryToString(expense.getCategory())
+                             << setw(12) << expense.getAmount()
+                             << setw(15) << expense.getDate()
+                             << '\n';
+                    }
             } break;
 
             // Calculate Total
@@ -121,8 +144,7 @@ int main() {
                     cout << "No expenses found.\n";
                     break;
                 }
-                double total;
-                total = expenseManager.calculateTotal();
+                double total = expenseManager.calculateTotal();
             }break;
 
             // Sort Expenses
