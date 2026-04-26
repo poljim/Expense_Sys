@@ -36,9 +36,7 @@ A simple console-based expense tracker program written in C++. It allows users t
 
 
 ## Build Instructions
-
-## Option 1 - Build and Run in VSCode
-
+## Option A: Build and Run in VSCode
 ### Prerequisites
 Install the following before opening the project:
 - **Visual Studio Code**
@@ -65,7 +63,7 @@ This builds the main executable:
 - `Expense_Sys.exe` on Windows
 - `Expense_Sys` on macOS/Linux
 
-### Run the application
+### 3- Run the application
 Open the VS Code terminal and run:
 
 **Windows**
@@ -82,13 +80,11 @@ Depending on the selected CMake generator, the executable may also be placed in 
 
 ### Build and run the tests
 Build the test target:
-
 ```bash
 cmake --build build --target Expense_Tests
 ```
 
 Run the tests from the VS Code terminal.
-
 **Windows**
 ```bash
 .\build\Expense_Tests.exe
@@ -99,52 +95,10 @@ Run the tests from the VS Code terminal.
 ./build/Expense_Tests
 ```
 
-### Terminal-only fallback inside VS Code
-If the CMake Tools extension is unavailable, use the integrated terminal.
+**CMake version note:** The current `CMakeLists.txt` uses version **4.1**:
 
-Configure the project:
 
-```bash
-cmake -S . -B build
-```
-
-Build everything:
-
-```bash
-cmake --build build
-```
-
-Run the main program:
-
-**Windows**
-```bash
-.\build\Expense_Sys.exe
-```
-
-**macOS/Linux**
-```bash
-./build/Expense_Sys
-```
-
-Run the tests:
-
-**Windows**
-```bash
-.\build\Expense_Tests.exe
-```
-
-**macOS/Linux**
-```bash
-./build/Expense_Tests
-```
-
-### CMake version note
-The current `CMakeLists.txt` uses version 4.1:
-
-## Build Instructions
-
-### Option 1: Build with CMake
-
+## Option B: Build with CMake
 ```bash
 mkdir build
 cd build
@@ -153,27 +107,21 @@ cmake --build .
 ```
 
 This creates two targets:
-
 - `Expense_Sys` for the interactive application
 - `Expense_Tests` for the test suite
 
-### Option 2: Compile directly with g++
-
+## Option C: Compile directly with g++
 ```bash
 g++ -std=c++20 main.cpp Expense.cpp ExpenseManager.cpp -o Expense_Sys
 g++ -std=c++20 tests.cpp Expense.cpp ExpenseManager.cpp -o Expense_Tests
 ```
-
-## Running the Program
-
+### Running the Program
 Run the main application:
-
 ```bash
 ./Expense_Sys
 ```
 
 Run the tests:
-
 ```bash
 ./Expense_Tests
 ```
