@@ -63,7 +63,7 @@ This builds the main executable:
 - `Expense_Sys.exe` on Windows
 - `Expense_Sys` on macOS/Linux
 
-### 3- Run the application
+### Run the main application
 Open the VS Code terminal and run:
 
 **Windows**
