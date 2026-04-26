@@ -1,5 +1,4 @@
 # Team Members
-
 | Number       | Name                  | Created Function      |
 |--------------|-----------------------|-----------------------|
 | 240 201 426  | Ömer Balkanoğlu       | Remove Expense        |
@@ -36,6 +35,21 @@ A simple console-based expense tracker program written in C++. It allows users t
 
 
 ## Build Instructions
+## Quick Run (Windows)
+If the project has already been built, you can run:
+
+```bash
+.\cmake-build-default\Expense_Sys.exe
+```
+
+For running tests:
+
+```bash
+.\cmake-build-default\Expense_Tests.exe
+```
+
+
+## Other Options than Quick Run
 ## Option A: Build and Run in VSCode
 ### Prerequisites
 Install the following before opening the project:

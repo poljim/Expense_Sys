@@ -5,6 +5,7 @@
 #include <string>
 #include <algorithm> // for sort()
 #include <limits> // for numeric_limits
+#include <iomanip> // for printing the table in printExpenses()
 
 using namespace std;
 
@@ -49,23 +50,32 @@ void ExpenseManager::removeExpense(int targetId) {
 }
 
 // Print Expenses
-void ExpenseManager::printExpenses(){
+void ExpenseManager::printExpenses() {
     if (ExpenseVector.empty()) {
         cout << "No expenses found.\n";
         return;
     }
-    cout << "\nID\tName\tCategory\tAmount\tDate\n";
-    cout << "----------------------------------------\n";
+
+    cout << left
+         << setw(6)  << "ID"
+         << setw(20) << "Name"
+         << setw(15) << "Category"
+         << setw(12) << "Amount"
+         << setw(15) << "Date" << '\n';
+
+    cout << string(68, '-') << '\n';
 
     for (const auto& expense : ExpenseVector) {
-        cout << expense.getID() << '\t'
-            << expense.getName() << '\t'
-            << categoryToString(expense.getCategory()) << '\t'
-            << expense.getAmount() << '\t'
-            << expense.getDate() << '\n';
-        cout << "----------------------------------------\n";
+        cout << left
+             << setw(6)  << expense.getID()
+             << setw(20) << expense.getName()
+             << setw(15) << categoryToString(expense.getCategory())
+             << setw(12) << expense.getAmount()
+             << setw(15) << expense.getDate()
+             << '\n';
     }
 }
+
 
 // Add Expense
 void ExpenseManager::addExpense(const string& name, Category category, double amount, const string& date) {

@@ -41,11 +41,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/cc.com"
@@ -67,11 +64,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -112,11 +106,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "message-v1"
@@ -138,7 +129,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/4.1.2/CompilerIdC/a.exe
+        C:/Users/drs/Downloads/Expense_Sys-master/cmake-build-default/CMakeFiles/4.1.2/CompilerIdC/a.exe
       
   -
     kind: "find-v1"
@@ -167,11 +158,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/ar.com"
@@ -190,11 +178,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -223,11 +208,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/ranlib.com"
@@ -246,11 +228,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -279,11 +258,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/strip.com"
@@ -302,11 +278,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -335,11 +308,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/ld.com"
@@ -358,11 +328,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -391,11 +358,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/nm.com"
@@ -414,11 +378,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -447,11 +408,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/objdump.com"
@@ -470,11 +428,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -503,11 +458,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/objcopy.com"
@@ -526,11 +478,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -559,11 +508,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/readelf.com"
@@ -582,11 +528,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -615,11 +558,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/dlltool.com"
@@ -638,11 +578,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -671,11 +608,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/addr2line.com"
@@ -694,11 +628,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -727,11 +658,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/tapi.com"
@@ -755,21 +683,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/tapi.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/tapi.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/tapi"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/tapi.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/tapi.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/tapi"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/tapi.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/tapi.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/tapi"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/tapi.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/tapi.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/tapi"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/tapi.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/tapi.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/tapi"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/tapi.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/tapi.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/tapi"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/tapi.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/tapi.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/tapi"
@@ -788,11 +707,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -824,11 +740,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/gcc-ar-13.1.com"
@@ -852,21 +765,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13.1.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13.1.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13.1"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13.1.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13.1.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13.1"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13.1.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13.1.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13.1"
@@ -891,21 +795,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13"
@@ -930,21 +825,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar13.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar13.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar13"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar13"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar13.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar13.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar13"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar13.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar13.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar13"
@@ -964,11 +850,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -1000,11 +883,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/gcc-ranlib-13.1.com"
@@ -1028,21 +908,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13.1.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13.1.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13.1.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13.1.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13.1"
@@ -1067,21 +938,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13"
@@ -1106,21 +968,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib13.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib13.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib13"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib13"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib13.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib13.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib13"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib13.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib13.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib13"
@@ -1140,11 +993,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -1192,11 +1042,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -1237,11 +1084,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "message-v1"
@@ -1263,7 +1107,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/4.1.2/CompilerIdCXX/a.exe
+        C:/Users/drs/Downloads/Expense_Sys-master/cmake-build-default/CMakeFiles/4.1.2/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -1295,11 +1139,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/gcc-ar-13.1.com"
@@ -1323,21 +1164,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13.1.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13.1.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13.1"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13.1.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13.1.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13.1"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13.1.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13.1.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13.1"
@@ -1362,21 +1194,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar-13"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar-13"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar-13"
@@ -1401,21 +1224,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar13.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar13.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ar13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ar13"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ar13"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar13.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar13.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ar13"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar13.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar13.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ar13"
@@ -1435,11 +1249,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -1471,11 +1282,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
     searched_directories:
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/gcc-ranlib-13.1.com"
@@ -1499,21 +1307,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13.1.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13.1.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13.1.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13.1.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13.1"
@@ -1538,21 +1337,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib-13"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib-13"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib-13"
@@ -1577,21 +1367,12 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib13.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib13.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/gcc-ranlib13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/gcc-ranlib13"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib13.com"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib13.exe"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/gcc-ranlib13"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib13.com"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib13.exe"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/gcc-ranlib13"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib13.com"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib13.exe"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/gcc-ranlib13"
@@ -1611,11 +1392,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
   -
     kind: "find-v1"
@@ -1647,11 +1425,8 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA NGX/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/Scripts/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/ch\u00f6/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/ch\u00f6/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/drs/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/drs/AppData/Local/Programs/Git/cmd/"
       - "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
@@ -1682,11 +1457,8 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Python\\Python314\\"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\ch\u00f6\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\drs\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\drs\\AppData\\Local\\Programs\\Git\\cmd"
         - "C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\ninja\\win\\x64"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Expense_Sys"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -1703,8 +1475,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/ch\u00f6/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-xttx0r"
-      binary: "C:/Users/ch\u00f6/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-xttx0r"
+      source: "C:/Users/drs/Downloads/Expense_Sys-master/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-54p6g8"
+      binary: "C:/Users/drs/Downloads/Expense_Sys-master/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-54p6g8"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1713,10 +1485,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-xttx0r'
+        Change Dir: 'C:/Users/drs/Downloads/Expense_Sys-master/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-54p6g8'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_81f9c
-        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_7ac4e
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -1724,8 +1496,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_81f9c.dir/'
-         C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_81f9c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\CHC4D7~1\\AppData\\Local\\Temp\\ccxYwr9y.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7ac4e.dir/'
+         C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7ac4e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\drs\\AppData\\Local\\Temp\\ccVY9ryD.s
         GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -1743,13 +1515,13 @@ events:
          C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_81f9c.dir/'
-         as -v -o CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj C:\\Users\\CHC4D7~1\\AppData\\Local\\Temp\\ccxYwr9y.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7ac4e.dir/'
+         as -v -o CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj C:\\Users\\drs\\AppData\\Local\\Temp\\ccVY9ryD.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.'\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj -o cmTC_81f9c.exe -Wl,--out-implib,libcmTC_81f9c.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj -o cmTC_7ac4e.exe -Wl,--out-implib,libcmTC_7ac4e.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/Program\\ Files/JetBrains/CLion\\ 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -1760,12 +1532,12 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_81f9c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_81f9c.'
-         C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_81f9c.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_81f9c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ac4e.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7ac4e.'
+         C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_7ac4e.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_7ac4e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         collect2 version 13.1.0
-        C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_81f9c.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_81f9c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
+        C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_7ac4e.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_7ac4e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
         GNU ld (GNU Binutils) 2.40\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_81f9c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_81f9c.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ac4e.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7ac4e.'\x0d
         
       exitCode: 0
   -
@@ -1800,10 +1572,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-xttx0r']
+        ignore line: [Change Dir: 'C:/Users/drs/Downloads/Expense_Sys-master/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-54p6g8']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_81f9c]
-        ignore line: [[1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_7ac4e]
+        ignore line: [[1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -1811,8 +1583,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_81f9c.dir/']
-        ignore line: [ C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_81f9c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\CHC4D7~1\\AppData\\Local\\Temp\\ccxYwr9y.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7ac4e.dir/']
+        ignore line: [ C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7ac4e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\drs\\AppData\\Local\\Temp\\ccVY9ryD.s]
         ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -1830,8 +1602,8 @@ events:
         ignore line: [ C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_81f9c.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj C:\\Users\\CHC4D7~1\\AppData\\Local\\Temp\\ccxYwr9y.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7ac4e.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj C:\\Users\\drs\\AppData\\Local\\Temp\\ccVY9ryD.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/]
@@ -1841,8 +1613,8 @@ events:
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.'\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj -o cmTC_81f9c.exe -Wl --out-implib libcmTC_81f9c.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj -o cmTC_7ac4e.exe -Wl --out-implib libcmTC_7ac4e.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Program\\ Files/JetBrains/CLion\\ 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -1859,12 +1631,12 @@ events:
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_81f9c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_81f9c.']
-        ignore line: [ C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_81f9c.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_81f9c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ac4e.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7ac4e.']
+        ignore line: [ C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_7ac4e.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_7ac4e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         ignore line: [collect2 version 13.1.0]
-        ignore line: [C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_81f9c.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_81f9c.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_81f9c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+        ignore line: [C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_7ac4e.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_7ac4e.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_7ac4e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
         ignore line: [GNU ld (GNU Binutils) 2.40\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_81f9c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_81f9c.'\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ac4e.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7ac4e.'\x0d]
         ignore line: []
         ignore line: []
         linker tool for 'C': C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/ld.exe
@@ -1893,8 +1665,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/ch\u00f6/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-4vszc4"
-      binary: "C:/Users/ch\u00f6/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-4vszc4"
+      source: "C:/Users/drs/Downloads/Expense_Sys-master/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-xdokmz"
+      binary: "C:/Users/drs/Downloads/Expense_Sys-master/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-xdokmz"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1904,10 +1676,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-4vszc4'
+        Change Dir: 'C:/Users/drs/Downloads/Expense_Sys-master/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-xdokmz'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_0e8bb
-        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_48103
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE
         Target: x86_64-w64-mingw32
@@ -1915,8 +1687,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0e8bb.dir/'
-         C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0e8bb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\CHC4D7~1\\AppData\\Local\\Temp\\ccqmXP7y.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_48103.dir/'
+         C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_48103.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\drs\\AppData\\Local\\Temp\\ccuSE1VP.s
         GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -1940,13 +1712,13 @@ events:
          C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: e75de627edc3c57e31324b930b15b056
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0e8bb.dir/'
-         as -v -o CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\CHC4D7~1\\AppData\\Local\\Temp\\ccqmXP7y.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_48103.dir/'
+         as -v -o CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\drs\\AppData\\Local\\Temp\\ccuSE1VP.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.'\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE  -v -Wl,-v CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_0e8bb.exe -Wl,--out-implib,libcmTC_0e8bb.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE  -v -Wl,-v CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_48103.exe -Wl,--out-implib,libcmTC_48103.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE
         COLLECT_LTO_WRAPPER=C:/Program\\ Files/JetBrains/CLion\\ 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -1957,12 +1729,12 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e8bb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0e8bb.'
-         C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_0e8bb.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_0e8bb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_48103.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_48103.'
+         C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_48103.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_48103.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         collect2 version 13.1.0
-        C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_0e8bb.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_0e8bb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
+        C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_48103.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_48103.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
         GNU ld (GNU Binutils) 2.40\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e8bb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0e8bb.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_48103.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_48103.'\x0d
         
       exitCode: 0
   -
@@ -2003,10 +1775,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/chö/CLionProjects/Expense_Sys/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-4vszc4']
+        ignore line: [Change Dir: 'C:/Users/drs/Downloads/Expense_Sys-master/cmake-build-default/CMakeFiles/CMakeScratch/TryCompile-xdokmz']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_0e8bb]
-        ignore line: [[1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2025.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_48103]
+        ignore line: [[1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2014,8 +1786,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0e8bb.dir/']
-        ignore line: [ C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0e8bb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\CHC4D7~1\\AppData\\Local\\Temp\\ccqmXP7y.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_48103.dir/']
+        ignore line: [ C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_48103.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\drs\\AppData\\Local\\Temp\\ccuSE1VP.s]
         ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -2039,8 +1811,8 @@ events:
         ignore line: [ C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0e8bb.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\CHC4D7~1\\AppData\\Local\\Temp\\ccqmXP7y.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_48103.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\drs\\AppData\\Local\\Temp\\ccuSE1VP.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/]
@@ -2050,8 +1822,8 @@ events:
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.'\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE  -v -Wl -v CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_0e8bb.exe -Wl --out-implib libcmTC_0e8bb.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE  -v -Wl -v CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_48103.exe -Wl --out-implib libcmTC_48103.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Program\\ Files/JetBrains/CLion\\ 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -2068,12 +1840,12 @@ events:
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e8bb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0e8bb.']
-        ignore line: [ C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_0e8bb.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_0e8bb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_48103.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_48103.']
+        ignore line: [ C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_48103.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_48103.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         ignore line: [collect2 version 13.1.0]
-        ignore line: [C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_0e8bb.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_0e8bb.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_0e8bb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+        ignore line: [C:\\Program Files\\JetBrains\\CLion 2025.3.3\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_48103.exe C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_48103.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_48103.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
         ignore line: [GNU ld (GNU Binutils) 2.40\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e8bb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0e8bb.'\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_48103.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_48103.'\x0d]
         ignore line: []
         ignore line: []
         linker tool for 'CXX': C:/Program Files/JetBrains/CLion 2025.3.3/bin/mingw/bin/ld.exe
