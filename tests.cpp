@@ -141,7 +141,7 @@ void testRemoveNonExistingId() {
     ExpenseManager manager;
     manager.addExpense("Coffee", Category::Food, 50.0, "2011-11-11");
 
-    manager.removeExpense(99);
+    manager.removeExpense(99); // non-existing ID
 
     assert(manager.getExpenseCount() == 1);
     assert(manager.getExpenseAt(0).getName() == "Coffee");
@@ -165,12 +165,6 @@ void testNegativeAmountThrows() {
     } catch (const invalid_argument&) {
         thrown = true;
     }
-    try {
-        manager.addExpense("Coffee", Category::Food, -5.0, "2011-11-11");
-    } catch (const invalid_argument&) {
-        thrown = true;
-    }
-
     assert(thrown);
 }
 
@@ -179,6 +173,7 @@ void testInvalidDateThrows() {
 
     bool thrown1 = false;
     try {
+        // reverse date case
         manager.addExpense("X", Category::Food, 50.0, "11-11-2011");
     } catch (const invalid_argument&) {
         thrown1 = true;
@@ -187,6 +182,7 @@ void testInvalidDateThrows() {
 
     bool thrown2 = false;
     try {
+        // wrong format, should have used '-' for slicing
         manager.addExpense("X", Category::Food, 50.0, "2000.01.01");
     } catch (const invalid_argument&) {
         thrown2 = true;
@@ -195,7 +191,8 @@ void testInvalidDateThrows() {
 
     bool thrown3 = false;
     try {
-        manager.addExpense("X", Category::Food, 50.0, "2025-13-01");
+        // invalid month case
+        manager.addExpense("X", Category::Food, 50.0, "2025-13-01"); 
     } catch (const invalid_argument&) {
         thrown3 = true;
     }
@@ -203,7 +200,8 @@ void testInvalidDateThrows() {
 
     bool thrown5 = false;
     try {
-        manager.addExpense("X", Category::Food, 50.0, "2025-02-99");
+        // invalid day case
+        manager.addExpense("X", Category::Food, 50.0, "2025-02-99"); 
     } catch (const invalid_argument&) {
         thrown5 = true;
     }
@@ -213,14 +211,14 @@ void testInvalidDateThrows() {
 int main() {
     testAddExpense();
     testRemoveExpense();
+    testCalcTot();
+    testFilterbyCat();
+    
     testSortByAmount();
     testSortByName();
     testSortByCategory();
     testSortByDate();
     testSortByID();
-
-    testCalcTot();
-    testFilterbyCat();
 
     testEmptyManager();
     testDuplicateRecords();
